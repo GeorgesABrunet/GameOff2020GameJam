@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuScript : MonoBehaviour
 {
-    private float PlayTime = 3f;
+    private float PlayTime = 5f;
+    public static bool GoTime = false;
     public void PlayLoad()
     {
+        GoTime = true;
         Invoke("Play", PlayTime);
     }
     public void Play()
