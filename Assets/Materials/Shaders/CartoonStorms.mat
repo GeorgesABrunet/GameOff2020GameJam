@@ -35,7 +35,11 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
     - _SampleTexture2D_12E6F6D3_Texture_1:
+=======
+    - _SampleTexture2D_85795343_Texture_1:
+>>>>>>> GameModeAdditions
         m_Texture: {fileID: 2800000, guid: 7ccee54c050a1f9478f565dace9ae1c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
