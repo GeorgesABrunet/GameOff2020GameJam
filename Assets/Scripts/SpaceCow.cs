@@ -15,7 +15,7 @@ public class SpaceCow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.SpaceCowAppear >= 5)
+        if (MenuEventController.SpaceCowAppear >= 5)
         {
             spinning = true;
         }
