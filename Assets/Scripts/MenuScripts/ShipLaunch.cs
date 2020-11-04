@@ -21,13 +21,7 @@ public class ShipLaunch : MonoBehaviour
         if (StationDoor.ShipStart == true)
         {
             anim2.SetBool("Blasting", true);
-            rb.velocity = new Vector2(0.6f,-0.1f);
-            //Invoke("Shutoff", 4.0f);
+            rb.velocity = new Vector2(1.2f,-0.1f);
         }
-    }
-
-    void Shutoff()
-    {
-        //anim2.SetBool("Blasting", false);
     }
 }
