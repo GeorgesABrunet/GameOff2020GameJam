@@ -1,0 +1,2557 @@
+fileFormatVersion: 2
+guid: 626a03aa29e06de418255fca6c80eb03
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6513967917356013753
+    second: CircleRoomFloor_0
+  - first:
+      213: -414458119924736790
+    second: CircleRoomFloor_1
+  - first:
+      213: -2922065779920561174
+    second: CircleRoomFloor_2
+  - first:
+      213: -116555066441332639
+    second: CircleRoomFloor_3
+  - first:
+      213: -3730423782729894446
+    second: CircleRoomFloor_4
+  - first:
+      213: -4745294360790667336
+    second: CircleRoomFloor_5
+  - first:
+      213: -6029762744871484919
+    second: CircleRoomFloor_6
+  - first:
+      213: 1595900460968808458
+    second: CircleRoomFloor_7
+  - first:
+      213: 9214146809421996303
+    second: CircleRoomFloor_8
+  - first:
+      213: 7012310666984057993
+    second: CircleRoomFloor_9
+  - first:
+      213: -7971974463270905140
+    second: CircleRoomFloor_10
+  - first:
+      213: 3283257804364907849
+    second: CircleRoomFloor_11
+  - first:
+      213: -8318739436675831226
+    second: CircleRoomFloor_12
+  - first:
+      213: 2132759293846297429
+    second: CircleRoomFloor_13
+  - first:
+      213: -7553246968081530021
+    second: CircleRoomFloor_14
+  - first:
+      213: 5350223708032050448
+    second: CircleRoomFloor_15
+  - first:
+      213: -2919360344248859409
+    second: CircleRoomFloor_16
+  - first:
+      213: 7661162851166023544
+    second: CircleRoomFloor_17
+  - first:
+      213: -1925727446843763388
+    second: CircleRoomFloor_18
+  - first:
+      213: 3738267524729756214
+    second: CircleRoomFloor_19
+  - first:
+      213: 4622077745402626872
+    second: CircleRoomFloor_20
+  - first:
+      213: 8696412982887483858
+    second: CircleRoomFloor_21
+  - first:
+      213: -1384422547247772299
+    second: CircleRoomFloor_22
+  - first:
+      213: -8985504966289992752
+    second: CircleRoomFloor_23
+  - first:
+      213: -2037298589600430177
+    second: CircleRoomFloor_24
+  - first:
+      213: 5703030900627480330
+    second: CircleRoomFloor_25
+  - first:
+      213: -3508365037464240346
+    second: CircleRoomFloor_26
+  - first:
+      213: 2133021562578045461
+    second: CircleRoomFloor_27
+  - first:
+      213: -2649288979456075524
+    second: CircleRoomFloor_28
+  - first:
+      213: -7100398843190701611
+    second: CircleRoomFloor_29
+  - first:
+      213: 5039809844064743094
+    second: CircleRoomFloor_30
+  - first:
+      213: 7981942330664867797
+    second: CircleRoomFloor_31
+  - first:
+      213: -5853354315255387397
+    second: CircleRoomFloor_32
+  - first:
+      213: -8468096154579303409
+    second: CircleRoomFloor_33
+  - first:
+      213: 3295841092190920063
+    second: CircleRoomFloor_34
+  - first:
+      213: -4093508346862193362
+    second: CircleRoomFloor_35
+  - first:
+      213: -8730897541306239887
+    second: CircleRoomFloor_36
+  - first:
+      213: -2648749595338435495
+    second: CircleRoomFloor_37
+  - first:
+      213: 3686807815025849452
+    second: CircleRoomFloor_38
+  - first:
+      213: 4776438217052452920
+    second: CircleRoomFloor_39
+  - first:
+      213: -9153057094128305762
+    second: CircleRoomFloor_40
+  - first:
+      213: 8359630175798942759
+    second: CircleRoomFloor_41
+  - first:
+      213: 5722600312132167927
+    second: CircleRoomFloor_42
+  - first:
+      213: -6542055695552675452
+    second: CircleRoomFloor_43
+  - first:
+      213: -3327280514580895617
+    second: CircleRoomFloor_44
+  - first:
+      213: 2602814477185191268
+    second: CircleRoomFloor_45
+  - first:
+      213: -8988562636673689618
+    second: CircleRoomFloor_46
+  - first:
+      213: 1251600014766107087
+    second: CircleRoomFloor_47
+  - first:
+      213: -2520641574501929410
+    second: CircleRoomFloor_48
+  - first:
+      213: 6191644444276859795
+    second: CircleRoomFloor_49
+  - first:
+      213: -1125654989801382622
+    second: CircleRoomFloor_50
+  - first:
+      213: -8118083141141923770
+    second: CircleRoomFloor_51
+  - first:
+      213: -6988708944467529838
+    second: CircleRoomFloor_52
+  - first:
+      213: 4498897856879032902
+    second: CircleRoomFloor_53
+  - first:
+      213: -5313072959777844620
+    second: CircleRoomFloor_54
+  - first:
+      213: -2862922769589925748
+    second: CircleRoomFloor_55
+  - first:
+      213: -2405348437621797894
+    second: CircleRoomFloor_56
+  - first:
+      213: -6152031768561273945
+    second: CircleRoomFloor_57
+  - first:
+      213: -8262847412306558070
+    second: CircleRoomFloor_58
+  - first:
+      213: -1274316346868388485
+    second: CircleRoomFloor_59
+  - first:
+      213: 5525916134268482713
+    second: CircleRoomFloor_60
+  - first:
+      213: 4143534260822685558
+    second: CircleRoomFloor_61
+  - first:
+      213: 3689500052426600970
+    second: CircleRoomFloor_62
+  - first:
+      213: -5531271235427601721
+    second: CircleRoomFloor_63
+  - first:
+      213: 737934533166159083
+    second: CircleRoomFloor_64
+  - first:
+      213: 3507104227741180946
+    second: CircleRoomFloor_65
+  - first:
+      213: 7786512559255115143
+    second: CircleRoomFloor_66
+  - first:
+      213: -1142414574058333524
+    second: CircleRoomFloor_67
+  - first:
+      213: 7744721033737225152
+    second: CircleRoomFloor_68
+  - first:
+      213: 3487336086430624990
+    second: CircleRoomFloor_69
+  - first:
+      213: -4869366686661918585
+    second: CircleRoomFloor_70
+  - first:
+      213: -2793579057967926745
+    second: CircleRoomFloor_71
+  - first:
+      213: -4695212421072965572
+    second: CircleRoomFloor_72
+  - first:
+      213: 3229436988993587319
+    second: CircleRoomFloor_73
+  - first:
+      213: 6413421069181639884
+    second: CircleRoomFloor_74
+  - first:
+      213: 4893091838708939690
+    second: CircleRoomFloor_75
+  - first:
+      213: 5399360272285200573
+    second: CircleRoomFloor_76
+  - first:
+      213: -4154479712891281849
+    second: CircleRoomFloor_77
+  - first:
+      213: -5217151054082828040
+    second: CircleRoomFloor_78
+  - first:
+      213: -6213066449690372339
+    second: CircleRoomFloor_79
+  - first:
+      213: -2495977136180568298
+    second: CircleRoomFloor_80
+  - first:
+      213: 2714143828087418663
+    second: CircleRoomFloor_81
+  - first:
+      213: -5983476093371426490
+    second: CircleRoomFloor_82
+  - first:
+      213: 6547567586700796772
+    second: CircleRoomFloor_83
+  - first:
+      213: -3910900025508254152
+    second: CircleRoomFloor_84
+  - first:
+      213: 8174687503786841282
+    second: CircleRoomFloor_85
+  - first:
+      213: -6137375275056784357
+    second: CircleRoomFloor_86
+  - first:
+      213: 4744648296454369482
+    second: CircleRoomFloor_87
+  - first:
+      213: -6767661341252455825
+    second: CircleRoomFloor_88
+  - first:
+      213: 553696327612261722
+    second: CircleRoomFloor_0
+  - first:
+      213: -7788985438172166945
+    second: CircleRoomFloor_1
+  - first:
+      213: -1724586018745901229
+    second: CircleRoomFloor_2
+  - first:
+      213: -577665451198554551
+    second: CircleRoomFloor_3
+  - first:
+      213: -6260908034994253189
+    second: CircleRoomFloor_4
+  - first:
+      213: -6237469970726167130
+    second: CircleRoomFloor_5
+  - first:
+      213: 1624378142778351501
+    second: CircleRoomFloor_6
+  - first:
+      213: -8067019462501359929
+    second: CircleRoomFloor_7
+  - first:
+      213: -6787331729194819908
+    second: CircleRoomFloor_8
+  - first:
+      213: -112111242480547423
+    second: CircleRoomFloor_9
+  - first:
+      213: -6886376093056641003
+    second: CircleRoomFloor_10
+  - first:
+      213: 4383011287112359396
+    second: CircleRoomFloor_11
+  - first:
+      213: -3707511503936887683
+    second: CircleRoomFloor_12
+  - first:
+      213: -5393132205226164086
+    second: CircleRoomFloor_13
+  - first:
+      213: -2387889635839230781
+    second: CircleRoomFloor_14
+  - first:
+      213: 7813473097692251648
+    second: CircleRoomFloor_15
+  - first:
+      213: -6461769553813157160
+    second: CircleRoomFloor_16
+  - first:
+      213: 7411790643014433106
+    second: CircleRoomFloor_17
+  - first:
+      213: -1519633701928296892
+    second: CircleRoomFloor_18
+  - first:
+      213: -7686080149958184492
+    second: CircleRoomFloor_19
+  - first:
+      213: -1088252924049564167
+    second: CircleRoomFloor_20
+  - first:
+      213: -738217579434549948
+    second: CircleRoomFloor_21
+  - first:
+      213: 8126506657368147504
+    second: CircleRoomFloor_22
+  - first:
+      213: 7960989200329468982
+    second: CircleRoomFloor_23
+  - first:
+      213: -2778453499848226864
+    second: CircleRoomFloor_24
+  - first:
+      213: 6384242290881168993
+    second: CircleRoomFloor_25
+  - first:
+      213: 8652813889975112361
+    second: CircleRoomFloor_26
+  - first:
+      213: -5209137564821676826
+    second: CircleRoomFloor_27
+  - first:
+      213: -6235067030790618767
+    second: CircleRoomFloor_28
+  - first:
+      213: 1793923494938286924
+    second: CircleRoomFloor_29
+  - first:
+      213: 5447657274945912737
+    second: CircleRoomFloor_30
+  - first:
+      213: 3555385697074485084
+    second: CircleRoomFloor_31
+  - first:
+      213: -1875647124451856206
+    second: CircleRoomFloor_32
+  - first:
+      213: 8163424765078591661
+    second: CircleRoomFloor_33
+  - first:
+      213: 4187459140381448776
+    second: CircleRoomFloor_34
+  - first:
+      213: 7018818370578223080
+    second: CircleRoomFloor_35
+  - first:
+      213: 9015099887577621663
+    second: CircleRoomFloor_36
+  - first:
+      213: 1301396902930869497
+    second: CircleRoomFloor_37
+  - first:
+      213: 6114829833016253786
+    second: CircleRoomFloor_38
+  - first:
+      213: 1062140533868244706
+    second: CircleRoomFloor_39
+  - first:
+      213: -8527066298242630452
+    second: CircleRoomFloor_40
+  - first:
+      213: -2391252505616089251
+    second: CircleRoomFloor_41
+  - first:
+      213: 1805368896903709679
+    second: CircleRoomFloor_42
+  - first:
+      213: -3800968695690315645
+    second: CircleRoomFloor_43
+  - first:
+      213: -4162443367787440965
+    second: CircleRoomFloor_44
+  - first:
+      213: 5637895168100743758
+    second: CircleRoomFloor_45
+  - first:
+      213: -418981517273052811
+    second: CircleRoomFloor_46
+  - first:
+      213: -713821757318542210
+    second: CircleRoomFloor_47
+  - first:
+      213: 3830089914727675184
+    second: CircleRoomFloor_48
+  - first:
+      213: 2046468759191550340
+    second: CircleRoomFloor_49
+  - first:
+      213: 5017177777966598591
+    second: CircleRoomFloor_50
+  - first:
+      213: -6258430849110546349
+    second: CircleRoomFloor_51
+  - first:
+      213: 5529724160198502629
+    second: CircleRoomFloor_52
+  - first:
+      213: 8304966153334606719
+    second: CircleRoomFloor_53
+  - first:
+      213: 7905266033799314098
+    second: CircleRoomFloor_54
+  - first:
+      213: -8853539024522823119
+    second: CircleRoomFloor_55
+  - first:
+      213: 9058962414852658646
+    second: CircleRoomFloor_56
+  - first:
+      213: 3135803416238259708
+    second: CircleRoomFloor_57
+  - first:
+      213: -4827115104017563691
+    second: CircleRoomFloor_58
+  - first:
+      213: 8999390405032582212
+    second: CircleRoomFloor_59
+  - first:
+      213: 3725236360407893888
+    second: CircleRoomFloor_60
+  - first:
+      213: -9029771852046787431
+    second: CircleRoomFloor_61
+  - first:
+      213: -8523741046247675153
+    second: CircleRoomFloor_62
+  - first:
+      213: -716492005904924210
+    second: CircleRoomFloor_63
+  - first:
+      213: 3807669277041611156
+    second: CircleRoomFloor_64
+  - first:
+      213: 7510735003956175973
+    second: CircleRoomFloor_65
+  - first:
+      213: -5633709595731236468
+    second: CircleRoomFloor_66
+  - first:
+      213: 7561880617495806180
+    second: CircleRoomFloor_67
+  - first:
+      213: -2481421205832764265
+    second: CircleRoomFloor_68
+  - first:
+      213: -2008628730753588548
+    second: CircleRoomFloor_69
+  - first:
+      213: -4742703706313898945
+    second: CircleRoomFloor_70
+  - first:
+      213: 1424109371067187100
+    second: CircleRoomFloor_71
+  - first:
+      213: 7861804650424072309
+    second: CircleRoomFloor_72
+  - first:
+      213: 6208066075289375496
+    second: CircleRoomFloor_73
+  - first:
+      213: 3860126061330119941
+    second: CircleRoomFloor_74
+  - first:
+      213: 8598947508871182547
+    second: CircleRoomFloor_75
+  - first:
+      213: 7227504953590195573
+    second: CircleRoomFloor_76
+  - first:
+      213: -3824550695944561820
+    second: CircleRoomFloor_77
+  - first:
+      213: -1507877203159994830
+    second: CircleRoomFloor_78
+  - first:
+      213: 3483969555657645031
+    second: CircleRoomFloor_79
+  - first:
+      213: 6286582553961543143
+    second: CircleRoomFloor_80
+  - first:
+      213: 3129267213428585184
+    second: CircleRoomFloor_81
+  - first:
+      213: 5173802152947155441
+    second: CircleRoomFloor_82
+  - first:
+      213: 7437017012892518747
+    second: CircleRoomFloor_83
+  - first:
+      213: -6713763022736798180
+    second: CircleRoomFloor_84
+  - first:
+      213: 2969393091731729144
+    second: CircleRoomFloor_85
+  - first:
+      213: 2658508250694291690
+    second: CircleRoomFloor_86
+  - first:
+      213: 8695101271783312971
+    second: CircleRoomFloor_87
+  - first:
+      213: 1455112706555425685
+    second: CircleRoomFloor_88
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 125
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CircleRoomFloor_0
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5564c850ef1fa700800000000000000
+      internalID: 553696327612261722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_1
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4ce050307f7e390800000000000000
+      internalID: -7788985438172166945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f9b08372a0118e0800000000000000
+      internalID: -1724586018745901229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_3
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e5b4e2558bbf7f0800000000000000
+      internalID: -577665451198554551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_4
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7257ca5059cc19a0800000000000000
+      internalID: -6260908034994253189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_5
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad53b1fb1e0079a0800000000000000
+      internalID: -6237469970726167130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_6
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f56358053fa8610800000000000000
+      internalID: 1624378142778351501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_7
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1000
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce917d2a803c0090800000000000000
+      internalID: -8067019462501359929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_8
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1000
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbeda9cc0cd8ec1a0800000000000000
+      internalID: -6787331729194819908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_9
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1000
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a98e904b63b17ef0800000000000000
+      internalID: -112111242480547423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518dd9fcd6dae60a0800000000000000
+      internalID: -6886376093056641003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_11
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1000
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed1cde1b8593dc30800000000000000
+      internalID: 4383011287112359396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_12
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1000
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74ea2f2ee54c8cc0800000000000000
+      internalID: -3707511503936887683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_13
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1000
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8086c855deb725b0800000000000000
+      internalID: -5393132205226164086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc37fc17038cded0800000000000000
+      internalID: -2387889635839230781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006840282680f6c60800000000000000
+      internalID: 7813473097692251648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da4884a3de2356a0800000000000000
+      internalID: -6461769553813157160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259707a0258fbd660800000000000000
+      internalID: 7411790643014433106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_18
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e1adf033d29eae0800000000000000
+      internalID: -1519633701928296892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1bf8283de855590800000000000000
+      internalID: -7686080149958184492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_20
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdde3c3bbfb5e0f0800000000000000
+      internalID: -1088252924049564167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_21
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ddad2d50351c5f0800000000000000
+      internalID: -738217579434549948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_22
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0368641bfb627c070800000000000000
+      internalID: 8126506657368147504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_23
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ceb52af7d1b7e60800000000000000
+      internalID: 7960989200329468982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_24
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d70b944343f079d0800000000000000
+      internalID: -2778453499848226864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1668ff3d982699850800000000000000
+      internalID: 6384242290881168993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_26
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2588b6368f41870800000000000000
+      internalID: 8652813889975112361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_27
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec19a6ebfc65b7b0800000000000000
+      internalID: -5209137564821676826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_28
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171c9fef1979879a0800000000000000
+      internalID: -6235067030790618767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_29
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b160ef9eb45e810800000000000000
+      internalID: 1793923494938286924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_30
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af393bbd67f99b40800000000000000
+      internalID: 5447657274945912737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_31
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5711a94474475130800000000000000
+      internalID: 3555385697074485084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_32
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0701fb0ec58f5e0800000000000000
+      internalID: -1875647124451856206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_33
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8d229729f4a4170800000000000000
+      internalID: 8163424765078591661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_34
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a16ede6e7dc1a30800000000000000
+      internalID: 4187459140381448776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef0d49ee1ad76160800000000000000
+      internalID: 7018818370578223080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_36
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f946abd65911c1d70800000000000000
+      internalID: 9015099887577621663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_37
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcecfe869d7f0210800000000000000
+      internalID: 1301396902930869497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_38
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d15ead55d3cd450800000000000000
+      internalID: 6114829833016253786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_39
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eea2c6203b7dbe00800000000000000
+      internalID: 1062140533868244706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_40
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccfa0d4166c9a980800000000000000
+      internalID: -8527066298242630452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_41
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f7d7af38090ded0800000000000000
+      internalID: -2391252505616089251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_42
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe30c7c4275fd0910800000000000000
+      internalID: 1805368896903709679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_43
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388bff21c1f304bc0800000000000000
+      internalID: -3800968695690315645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_44
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb459518fc70c36c0800000000000000
+      internalID: -4162443367787440965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a3987d8c3dd3e40800000000000000
+      internalID: 5637895168100743758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_46
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5794c77a78a7f2af0800000000000000
+      internalID: -418981517273052811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_47
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c451ac4eef716f0800000000000000
+      internalID: -713821757318542210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_48
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03536291c76372530800000000000000
+      internalID: 3830089914727675184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_49
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489fb8b6e74866c10800000000000000
+      internalID: 2046468759191550340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_50
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9ceae5b9890a540800000000000000
+      internalID: 5017177777966598591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_51
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3586b632d469529a0800000000000000
+      internalID: -6258430849110546349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_52
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8e68273d68dbc40800000000000000
+      internalID: 5529724160198502629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_53
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bc62107ba214370800000000000000
+      internalID: 8304966153334606719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_54
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bab197e29525bd60800000000000000
+      internalID: 7905266033799314098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a324e4a29e12580800000000000000
+      internalID: -8853539024522823119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_56
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d558e2e156e7bd70800000000000000
+      internalID: 9058962414852658646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_57
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd7656c79c948b20800000000000000
+      internalID: 3135803416238259708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_58
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df3c175364a20db0800000000000000
+      internalID: -4827115104017563691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_59
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c960f74e144ec70800000000000000
+      internalID: 8999390405032582212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_60
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0874b7e8bb2b2b330800000000000000
+      internalID: 3725236360407893888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_61
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c1ee3a75ecfa280800000000000000
+      internalID: -9029771852046787431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_62
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaadfcdda695b980800000000000000
+      internalID: -8523741046247675153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_63
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec141a711528e06f0800000000000000
+      internalID: -716492005904924210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_64
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491db38980f87d430800000000000000
+      internalID: 3807669277041611156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56466e841bd7b3860800000000000000
+      internalID: 7510735003956175973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_66
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89eabaa8fa01d1b0800000000000000
+      internalID: -5633709595731236468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_67
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0cfb76b5231f860800000000000000
+      internalID: 7561880617495806180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_68
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79477387f88309dd0800000000000000
+      internalID: -2481421205832764265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_69
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2e9c1cfcaef14e0800000000000000
+      internalID: -2008628730753588548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_70
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f344b366b188e2eb0800000000000000
+      internalID: -4742703706313898945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_71
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fb3cf7de373c310800000000000000
+      internalID: 1424109371067187100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_72
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5787a0a0dadba1d60800000000000000
+      internalID: 7861804650424072309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_73
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803d6c7243b772650800000000000000
+      internalID: 6208066075289375496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_74
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d3fc1733ce19530800000000000000
+      internalID: 3860126061330119941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_75
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d83f7c3339955770800000000000000
+      internalID: 8598947508871182547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_76
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575ae1b56714d4460800000000000000
+      internalID: 7227504953590195573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_77
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b50c6c7677ceac0800000000000000
+      internalID: -3824550695944561820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_78
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e2dbc3ca1f21be0800000000000000
+      internalID: -1507877203159994830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_79
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebdf3d1adb895030800000000000000
+      internalID: 3483969555657645031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_80
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5bb0c668d6e3750800000000000000
+      internalID: 6286582553961543143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_81
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2ffa773f36d6b20800000000000000
+      internalID: 3129267213428585184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_82
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1019865a90dc740800000000000000
+      internalID: 5173802152947155441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_83
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59cef9f197953760800000000000000
+      internalID: 7437017012892518747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_84
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ece931a1ce3d2a0800000000000000
+      internalID: -6713763022736798180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_85
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa2b2fc847653920800000000000000
+      internalID: 2969393091731729144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_86
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0141b2b2be4e420800000000000000
+      internalID: 2658508250694291690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_87
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e01beb9843ba870800000000000000
+      internalID: 8695101271783312971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleRoomFloor_88
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593b46e0c49913410800000000000000
+      internalID: 1455112706555425685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
