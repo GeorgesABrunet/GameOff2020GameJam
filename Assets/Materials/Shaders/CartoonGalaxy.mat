@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CartoonMoon
-  m_Shader: {fileID: -6465566751694194690, guid: a9128a9c3c2a0c943ace59346e3d2b2f, type: 3}
+  m_Name: CartoonGalaxy
+  m_Shader: {fileID: -6465566751694194690, guid: 93798a843522ec14aa4513b6dc02d9b0, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -35,8 +35,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_CD263096_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 6c98457cd92053348a102686383487c3, type: 3}
+    - _SampleTexture2D_85D0361B_Texture_1:
+        m_Texture: {fileID: 2800000, guid: f129b0d883c8cbd4abbccb3f3117b2c6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
