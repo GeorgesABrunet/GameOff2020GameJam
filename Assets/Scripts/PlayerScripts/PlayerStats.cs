@@ -41,7 +41,7 @@ public class PlayerStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Hydation = Hydration - HydrationRate * Time.deltaTime;
+        Hydration = Hydration - HydrationRate * Time.deltaTime;
         Belly = Belly - BellyRate * Time.deltaTime;
 
 

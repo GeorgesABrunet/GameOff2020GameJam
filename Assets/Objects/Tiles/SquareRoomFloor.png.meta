@@ -1,0 +1,1990 @@
+fileFormatVersion: 2
+guid: 44486c6e2bcc679449085bfd8f566558
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9043550352506972527
+    second: SquareRoomFloor_0
+  - first:
+      213: -50740841609634077
+    second: SquareRoomFloor_0
+  - first:
+      213: 2927263997929510923
+    second: SquareRoomFloor_1
+  - first:
+      213: -8679740246291859280
+    second: SquareRoomFloor_2
+  - first:
+      213: 6081282042605511380
+    second: SquareRoomFloor_3
+  - first:
+      213: 4274483385395112804
+    second: SquareRoomFloor_4
+  - first:
+      213: 9208218870266298722
+    second: SquareRoomFloor_5
+  - first:
+      213: 117488294159041111
+    second: SquareRoomFloor_6
+  - first:
+      213: -4144319575859888304
+    second: SquareRoomFloor_7
+  - first:
+      213: 5777572923920880760
+    second: SquareRoomFloor_8
+  - first:
+      213: -7183764078246995665
+    second: SquareRoomFloor_9
+  - first:
+      213: 1405125966175818107
+    second: SquareRoomFloor_10
+  - first:
+      213: 690692599472129282
+    second: SquareRoomFloor_11
+  - first:
+      213: -1433484123044846125
+    second: SquareRoomFloor_12
+  - first:
+      213: 1701704324727153416
+    second: SquareRoomFloor_13
+  - first:
+      213: -2061864241819604580
+    second: SquareRoomFloor_14
+  - first:
+      213: -7892751812195395217
+    second: SquareRoomFloor_15
+  - first:
+      213: 582232599147431682
+    second: SquareRoomFloor_16
+  - first:
+      213: 422690387603991785
+    second: SquareRoomFloor_17
+  - first:
+      213: -8116694108818593914
+    second: SquareRoomFloor_18
+  - first:
+      213: -9184491600742822251
+    second: SquareRoomFloor_19
+  - first:
+      213: 929456016270029431
+    second: SquareRoomFloor_20
+  - first:
+      213: 6469887371832054963
+    second: SquareRoomFloor_21
+  - first:
+      213: 8675807643301407473
+    second: SquareRoomFloor_22
+  - first:
+      213: 5888879707039226364
+    second: SquareRoomFloor_23
+  - first:
+      213: -5202347213255460290
+    second: SquareRoomFloor_24
+  - first:
+      213: 8654362212990543893
+    second: SquareRoomFloor_25
+  - first:
+      213: 3089282523773544603
+    second: SquareRoomFloor_26
+  - first:
+      213: -7349934886744426062
+    second: SquareRoomFloor_27
+  - first:
+      213: -3477292344841477040
+    second: SquareRoomFloor_28
+  - first:
+      213: 6830809064007592227
+    second: SquareRoomFloor_29
+  - first:
+      213: 1000148734450760712
+    second: SquareRoomFloor_30
+  - first:
+      213: -824973113658508813
+    second: SquareRoomFloor_31
+  - first:
+      213: 7569813136999902399
+    second: SquareRoomFloor_32
+  - first:
+      213: -1207025966263541570
+    second: SquareRoomFloor_33
+  - first:
+      213: 5358944178623560661
+    second: SquareRoomFloor_34
+  - first:
+      213: -7217396226477276857
+    second: SquareRoomFloor_35
+  - first:
+      213: -4777693474337405946
+    second: SquareRoomFloor_36
+  - first:
+      213: 9081492503569352882
+    second: SquareRoomFloor_37
+  - first:
+      213: 2479607683752540249
+    second: SquareRoomFloor_38
+  - first:
+      213: -8099564622667541758
+    second: SquareRoomFloor_39
+  - first:
+      213: 1164204395585115179
+    second: SquareRoomFloor_40
+  - first:
+      213: 8735269049633499447
+    second: SquareRoomFloor_41
+  - first:
+      213: -312157642526575121
+    second: SquareRoomFloor_42
+  - first:
+      213: 4444311974899412434
+    second: SquareRoomFloor_43
+  - first:
+      213: -7677599955415015576
+    second: SquareRoomFloor_44
+  - first:
+      213: -5227162168791136014
+    second: SquareRoomFloor_45
+  - first:
+      213: 5104649668536905073
+    second: SquareRoomFloor_46
+  - first:
+      213: -7820341638972693824
+    second: SquareRoomFloor_47
+  - first:
+      213: -699565871135379085
+    second: SquareRoomFloor_48
+  - first:
+      213: -6395367852796496445
+    second: SquareRoomFloor_49
+  - first:
+      213: 3319356063105200870
+    second: SquareRoomFloor_50
+  - first:
+      213: 4815623253153729735
+    second: SquareRoomFloor_51
+  - first:
+      213: -3110125799951148624
+    second: SquareRoomFloor_52
+  - first:
+      213: 8527001825703411386
+    second: SquareRoomFloor_53
+  - first:
+      213: -7356413705117031757
+    second: SquareRoomFloor_54
+  - first:
+      213: -4394851102944240977
+    second: SquareRoomFloor_55
+  - first:
+      213: -5169788474127089491
+    second: SquareRoomFloor_56
+  - first:
+      213: 1824575427481420038
+    second: SquareRoomFloor_57
+  - first:
+      213: 1845156675812286403
+    second: SquareRoomFloor_58
+  - first:
+      213: 1545017841584065130
+    second: SquareRoomFloor_59
+  - first:
+      213: 5363008558092273796
+    second: SquareRoomFloor_60
+  - first:
+      213: -6794205835421456868
+    second: SquareRoomFloor_61
+  - first:
+      213: 4770853599290135095
+    second: SquareRoomFloor_62
+  - first:
+      213: 2130961280590988823
+    second: SquareRoomFloor_63
+  - first:
+      213: -3778008885644863619
+    second: SquareRoomFloor_64
+  - first:
+      213: -1146913026799139877
+    second: SquareRoomFloor_65
+  - first:
+      213: -2814986346593518143
+    second: SquareRoomFloor_66
+  - first:
+      213: -3141981926290112887
+    second: SquareRoomFloor_67
+  - first:
+      213: -7463431484042806842
+    second: SquareRoomFloor_68
+  - first:
+      213: 5976268777266110539
+    second: SquareRoomFloor_69
+  - first:
+      213: -3559432106235292008
+    second: SquareRoomFloor_70
+  - first:
+      213: 3544216601766781097
+    second: SquareRoomFloor_71
+  - first:
+      213: -558526587951959796
+    second: SquareRoomFloor_72
+  - first:
+      213: 8812502882134401146
+    second: SquareRoomFloor_73
+  - first:
+      213: 5211142256471597203
+    second: SquareRoomFloor_74
+  - first:
+      213: -5299154120833331732
+    second: SquareRoomFloor_75
+  - first:
+      213: 4392117253521236894
+    second: SquareRoomFloor_76
+  - first:
+      213: -2388690296887311110
+    second: SquareRoomFloor_77
+  - first:
+      213: 702654840892781428
+    second: SquareRoomFloor_78
+  - first:
+      213: -8789403168338438367
+    second: SquareRoomFloor_79
+  - first:
+      213: -2819866217239985908
+    second: SquareRoomFloor_80
+  - first:
+      213: 713296731078127578
+    second: SquareRoomFloor_81
+  - first:
+      213: -7655171094738371075
+    second: SquareRoomFloor_82
+  - first:
+      213: -6997226989585373650
+    second: SquareRoomFloor_83
+  - first:
+      213: -8969539430808821865
+    second: SquareRoomFloor_84
+  - first:
+      213: 4242406212628384360
+    second: SquareRoomFloor_85
+  - first:
+      213: 8485189998391043681
+    second: SquareRoomFloor_86
+  - first:
+      213: -7460901416548540974
+    second: SquareRoomFloor_87
+  - first:
+      213: 6629698519730722709
+    second: SquareRoomFloor_88
+  - first:
+      213: 782067473615097084
+    second: SquareRoomFloor_89
+  - first:
+      213: 815077059671239633
+    second: SquareRoomFloor_90
+  - first:
+      213: 6816554137611087346
+    second: SquareRoomFloor_91
+  - first:
+      213: -2829646129833124207
+    second: SquareRoomFloor_92
+  - first:
+      213: 4418163629482715829
+    second: SquareRoomFloor_93
+  - first:
+      213: 2975414766959005917
+    second: SquareRoomFloor_94
+  - first:
+      213: 6117646115017974134
+    second: SquareRoomFloor_95
+  - first:
+      213: 3399659126334864107
+    second: SquareRoomFloor_96
+  - first:
+      213: 8495281792859450814
+    second: SquareRoomFloor_97
+  - first:
+      213: 5665869049839303748
+    second: SquareRoomFloor_98
+  - first:
+      213: 5020163295159979782
+    second: SquareRoomFloor_99
+  - first:
+      213: 5933429485777463998
+    second: SquareRoomFloor_1
+  - first:
+      213: 2202126955383153504
+    second: SquareRoomFloor_2
+  - first:
+      213: -3057443986832645175
+    second: SquareRoomFloor_3
+  - first:
+      213: -4078858612670490621
+    second: SquareRoomFloor_4
+  - first:
+      213: 3730991559200841106
+    second: SquareRoomFloor_5
+  - first:
+      213: -2860405166010518373
+    second: SquareRoomFloor_6
+  - first:
+      213: 366321692446106189
+    second: SquareRoomFloor_7
+  - first:
+      213: -4836042111345506720
+    second: SquareRoomFloor_8
+  - first:
+      213: 605303544391012592
+    second: SquareRoomFloor_9
+  - first:
+      213: -2913155515405493478
+    second: SquareRoomFloor_10
+  - first:
+      213: -9052773862973894285
+    second: SquareRoomFloor_11
+  - first:
+      213: -8325254520923746525
+    second: SquareRoomFloor_12
+  - first:
+      213: 1724195837982808606
+    second: SquareRoomFloor_13
+  - first:
+      213: -811439483052677476
+    second: SquareRoomFloor_14
+  - first:
+      213: 5133253774725470916
+    second: SquareRoomFloor_15
+  - first:
+      213: 4824230380100989367
+    second: SquareRoomFloor_16
+  - first:
+      213: 7104204888327188752
+    second: SquareRoomFloor_17
+  - first:
+      213: -5804516234679331318
+    second: SquareRoomFloor_18
+  - first:
+      213: 2048493571958644630
+    second: SquareRoomFloor_19
+  - first:
+      213: 475209046734979098
+    second: SquareRoomFloor_20
+  - first:
+      213: -1956313347202536162
+    second: SquareRoomFloor_21
+  - first:
+      213: -1510534773188797607
+    second: SquareRoomFloor_22
+  - first:
+      213: -1182526452154143352
+    second: SquareRoomFloor_23
+  - first:
+      213: -4725527243232830104
+    second: SquareRoomFloor_24
+  - first:
+      213: -7213421454693740275
+    second: SquareRoomFloor_25
+  - first:
+      213: -3008156596738040879
+    second: SquareRoomFloor_26
+  - first:
+      213: -5658137798101146004
+    second: SquareRoomFloor_27
+  - first:
+      213: -1357838494096271321
+    second: SquareRoomFloor_28
+  - first:
+      213: -3646188290940034122
+    second: SquareRoomFloor_29
+  - first:
+      213: -500939215079552942
+    second: SquareRoomFloor_30
+  - first:
+      213: -8302331954798220500
+    second: SquareRoomFloor_31
+  - first:
+      213: 2356580100578252467
+    second: SquareRoomFloor_32
+  - first:
+      213: 6681522870197897818
+    second: SquareRoomFloor_33
+  - first:
+      213: -5448686254072900399
+    second: SquareRoomFloor_34
+  - first:
+      213: -6921050326480016309
+    second: SquareRoomFloor_35
+  - first:
+      213: -5598959362022810880
+    second: SquareRoomFloor_36
+  - first:
+      213: 4484591528022420629
+    second: SquareRoomFloor_37
+  - first:
+      213: -976534760888656497
+    second: SquareRoomFloor_38
+  - first:
+      213: 7150877474018127970
+    second: SquareRoomFloor_39
+  - first:
+      213: 7573116229436100595
+    second: SquareRoomFloor_40
+  - first:
+      213: 8085646808360814934
+    second: SquareRoomFloor_41
+  - first:
+      213: 3646939034117847115
+    second: SquareRoomFloor_42
+  - first:
+      213: 1890408201865353046
+    second: SquareRoomFloor_43
+  - first:
+      213: 7194118376817042875
+    second: SquareRoomFloor_44
+  - first:
+      213: 3048650494810040221
+    second: SquareRoomFloor_45
+  - first:
+      213: -232135817089134171
+    second: SquareRoomFloor_46
+  - first:
+      213: -1490424175487363003
+    second: SquareRoomFloor_47
+  - first:
+      213: -4378425334619810471
+    second: SquareRoomFloor_48
+  - first:
+      213: 7127300462408147344
+    second: SquareRoomFloor_49
+  - first:
+      213: -8137503461064913499
+    second: SquareRoomFloor_50
+  - first:
+      213: 3867373933098586157
+    second: SquareRoomFloor_51
+  - first:
+      213: 3827778364934424845
+    second: SquareRoomFloor_52
+  - first:
+      213: 5277853189887042845
+    second: SquareRoomFloor_53
+  - first:
+      213: 7409919677834691454
+    second: SquareRoomFloor_54
+  - first:
+      213: -2910581114011544932
+    second: SquareRoomFloor_55
+  - first:
+      213: -5994920558443847866
+    second: SquareRoomFloor_56
+  - first:
+      213: -6682254637225680943
+    second: SquareRoomFloor_57
+  - first:
+      213: 2687851546672593525
+    second: SquareRoomFloor_58
+  - first:
+      213: 1018359607256456234
+    second: SquareRoomFloor_59
+  - first:
+      213: -5582081634182719969
+    second: SquareRoomFloor_60
+  - first:
+      213: -8096769364370856326
+    second: SquareRoomFloor_61
+  - first:
+      213: 9061069100699028820
+    second: SquareRoomFloor_62
+  - first:
+      213: -1117488595582465989
+    second: SquareRoomFloor_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SquareRoomFloor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eed040397bbb4ff0800000000000000
+      internalID: -50740841609634077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba289f3ea6c75250800000000000000
+      internalID: 5933429485777463998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063eced6cc68f8e10800000000000000
+      internalID: 2202126955383153504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3af2c94e6c195d0800000000000000
+      internalID: -3057443986832645175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3089bb6d3bbf467c0800000000000000
+      internalID: -4078858612670490621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_5
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d95223e0527c330800000000000000
+      internalID: 3730991559200841106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_6
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94304618accd48d0800000000000000
+      internalID: -2860405166010518373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_7
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4225cf63af651500800000000000000
+      internalID: 366321692446106189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066cb6a725de2ecb0800000000000000
+      internalID: -4836042111345506720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_9
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f016b8dd58766800800000000000000
+      internalID: 605303544391012592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b19c84e746297d0800000000000000
+      internalID: -2913155515405493478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3711081a2261e5280800000000000000
+      internalID: -9052773862973894285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f00af4f11c67c80800000000000000
+      internalID: -8325254520923746525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_13
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a1c2ebaf29de710800000000000000
+      internalID: 1724195837982808606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_14
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c962befd6103db4f0800000000000000
+      internalID: -811439483052677476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_15
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cad1786c1bfc3740800000000000000
+      internalID: 5133253774725470916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1319888fb13f240800000000000000
+      internalID: 4824230380100989367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_17
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011f55cc4b4379260800000000000000
+      internalID: 7104204888327188752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_18
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0653fafc37327fa0800000000000000
+      internalID: -5804516234679331318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_19
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f1441ec06bd6c10800000000000000
+      internalID: 2048493571958644630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_20
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10c0b83c18489600800000000000000
+      internalID: 475209046734979098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_21
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d23ae2067c9d4e0800000000000000
+      internalID: -1956313347202536162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_22
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bd43f70a0890be0800000000000000
+      internalID: -1510534773188797607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_23
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d69d10572d69fe0800000000000000
+      internalID: -1182526452154143352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d1daa520e8b6eb0800000000000000
+      internalID: -4725527243232830104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_25
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d015cc1c767c4eb90800000000000000
+      internalID: -7213421454693740275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_26
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db5eae5381e046d0800000000000000
+      internalID: -3008156596738040879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_27
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6668f596a14a71b0800000000000000
+      internalID: -5658137798101146004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_28
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7285a01751df72de0800000000000000
+      internalID: -1357838494096271321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_29
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3a4565113266dc0800000000000000
+      internalID: -3646188290940034122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_30
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258ce1f107e4c09f0800000000000000
+      internalID: -500939215079552942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_31
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ba0e2231138cc80800000000000000
+      internalID: -8302331954798220500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b698b3ad1144b020800000000000000
+      internalID: 2356580100578252467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_33
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a4bc476a989bc50800000000000000
+      internalID: 6681522870197897818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_34
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d45e6568b06264b0800000000000000
+      internalID: -5448686254072900399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_35
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cae89b56d73ff90800000000000000
+      internalID: -6921050326480016309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_36
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b58c2ff108c42b0800000000000000
+      internalID: -5598959362022810880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_37
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ca08efb387c3e30800000000000000
+      internalID: 4484591528022420629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_38
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d19621fc6a272f0800000000000000
+      internalID: -976534760888656497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_39
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2607137fc250d3360800000000000000
+      internalID: 7150877474018127970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffc84a261d191960800000000000000
+      internalID: 7573116229436100595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_41
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6590e9fbeecf53070800000000000000
+      internalID: 8085646808360814934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_42
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48b91eaab78c9230800000000000000
+      internalID: 3646939034117847115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_43
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6575ba86e341c3a10800000000000000
+      internalID: 1890408201865353046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_44
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb52a423c84a6d360800000000000000
+      internalID: 7194118376817042875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_45
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97a87bf87bfe4a20800000000000000
+      internalID: 3048650494810040221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_46
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1d1ca44b947ccf0800000000000000
+      internalID: -232135817089134171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_47
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548db67eb13f05be0800000000000000
+      internalID: -1490424175487363003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9555a662b55bc33c0800000000000000
+      internalID: -4378425334619810471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_49
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091a05d220249e260800000000000000
+      internalID: 7127300462408147344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_50
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adc6bc67b7c11f80800000000000000
+      internalID: -8137503461064913499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_51
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2052f71a1caba530800000000000000
+      internalID: 3867373933098586157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_52
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0987d874200f1530800000000000000
+      internalID: 3827778364934424845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_53
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1521ef4383be3940800000000000000
+      internalID: 5277853189887042845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_54
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73838300b255d660800000000000000
+      internalID: 7409919677834691454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_55
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c929161d5e98b97d0800000000000000
+      internalID: -2910581114011544932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f9449b383cdcca0800000000000000
+      internalID: -5994920558443847866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_57
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfd471cfccd343a0800000000000000
+      internalID: -6682254637225680943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_58
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a7768adba2d4520800000000000000
+      internalID: 2687851546672593525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_59
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c9024daa0f12e00800000000000000
+      internalID: 1018359607256456234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_60
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f169e4f24567882b0800000000000000
+      internalID: -5582081634182719969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_61
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76e860692f72af80800000000000000
+      internalID: -8096769364370856326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_62
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d0f68e6526fbd70800000000000000
+      internalID: 9061069100699028820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareRoomFloor_63
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38c1c30b02ed70f0800000000000000
+      internalID: -1117488595582465989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

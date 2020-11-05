@@ -1,0 +1,1924 @@
+fileFormatVersion: 2
+guid: 689e9473e1ffd34428fe6b4b53053382
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5820021133281207186
+    second: NavRoomFloor_0
+  - first:
+      213: 4944875686217431996
+    second: NavRoomFloor_1
+  - first:
+      213: -3572339426723089733
+    second: NavRoomFloor_2
+  - first:
+      213: 9053210688249168214
+    second: NavRoomFloor_3
+  - first:
+      213: 6653676914200382175
+    second: NavRoomFloor_4
+  - first:
+      213: -4623718030716504214
+    second: NavRoomFloor_5
+  - first:
+      213: -5420390201843066924
+    second: NavRoomFloor_6
+  - first:
+      213: 8906641883844299015
+    second: NavRoomFloor_7
+  - first:
+      213: -3050797038744982741
+    second: NavRoomFloor_8
+  - first:
+      213: 1937178931752552516
+    second: NavRoomFloor_9
+  - first:
+      213: -1977064138100479729
+    second: NavRoomFloor_10
+  - first:
+      213: -8528548647740450989
+    second: NavRoomFloor_11
+  - first:
+      213: 3574883815283233695
+    second: NavRoomFloor_12
+  - first:
+      213: -8364826323658028143
+    second: NavRoomFloor_13
+  - first:
+      213: -3666017892516895594
+    second: NavRoomFloor_14
+  - first:
+      213: -1537485071393460219
+    second: NavRoomFloor_15
+  - first:
+      213: -5358864426304529545
+    second: NavRoomFloor_16
+  - first:
+      213: 5141215654132109985
+    second: NavRoomFloor_17
+  - first:
+      213: -3890822603998405023
+    second: NavRoomFloor_18
+  - first:
+      213: 6541119826978570162
+    second: NavRoomFloor_19
+  - first:
+      213: -5872904455840443706
+    second: NavRoomFloor_20
+  - first:
+      213: 4829980301508098288
+    second: NavRoomFloor_21
+  - first:
+      213: -5007641641605862390
+    second: NavRoomFloor_22
+  - first:
+      213: -5577637822752382493
+    second: NavRoomFloor_23
+  - first:
+      213: -2294919960081306057
+    second: NavRoomFloor_24
+  - first:
+      213: 5254429722751948300
+    second: NavRoomFloor_25
+  - first:
+      213: -766448332033852088
+    second: NavRoomFloor_26
+  - first:
+      213: 4933581258224118802
+    second: NavRoomFloor_27
+  - first:
+      213: -2614287829670560749
+    second: NavRoomFloor_28
+  - first:
+      213: -3040432795107386278
+    second: NavRoomFloor_29
+  - first:
+      213: 2641623479121268034
+    second: NavRoomFloor_30
+  - first:
+      213: -4691123259913999240
+    second: NavRoomFloor_31
+  - first:
+      213: -3661240950801590660
+    second: NavRoomFloor_32
+  - first:
+      213: -4492430418083268528
+    second: NavRoomFloor_33
+  - first:
+      213: -5234632264139800840
+    second: NavRoomFloor_34
+  - first:
+      213: 8756007619372252715
+    second: NavRoomFloor_35
+  - first:
+      213: -791333341527167958
+    second: NavRoomFloor_36
+  - first:
+      213: -1742365440435388625
+    second: NavRoomFloor_37
+  - first:
+      213: 4088543346823160939
+    second: NavRoomFloor_38
+  - first:
+      213: 9080252611567803375
+    second: NavRoomFloor_39
+  - first:
+      213: -1032465539677779955
+    second: NavRoomFloor_40
+  - first:
+      213: 5942291615536886695
+    second: NavRoomFloor_41
+  - first:
+      213: 7740537795597154242
+    second: NavRoomFloor_42
+  - first:
+      213: 687516124338379574
+    second: NavRoomFloor_43
+  - first:
+      213: 7240841445937202504
+    second: NavRoomFloor_44
+  - first:
+      213: -2292734212680312299
+    second: NavRoomFloor_45
+  - first:
+      213: -8876393526353880
+    second: NavRoomFloor_46
+  - first:
+      213: 2841705554025270732
+    second: NavRoomFloor_47
+  - first:
+      213: -8781072418498590930
+    second: NavRoomFloor_48
+  - first:
+      213: -744568464274323605
+    second: NavRoomFloor_49
+  - first:
+      213: -715462753062044499
+    second: NavRoomFloor_50
+  - first:
+      213: -1959425529658280838
+    second: NavRoomFloor_51
+  - first:
+      213: 947908717167129567
+    second: NavRoomFloor_52
+  - first:
+      213: -7583088955440697840
+    second: NavRoomFloor_53
+  - first:
+      213: -5725611968584365839
+    second: NavRoomFloor_54
+  - first:
+      213: 520237188319352919
+    second: NavRoomFloor_55
+  - first:
+      213: -1538142462655533364
+    second: NavRoomFloor_56
+  - first:
+      213: 7141446259171515845
+    second: NavRoomFloor_57
+  - first:
+      213: -3871374526848979866
+    second: NavRoomFloor_58
+  - first:
+      213: 2003049841936507249
+    second: NavRoomFloor_59
+  - first:
+      213: 1279872999830525945
+    second: NavRoomFloor_60
+  - first:
+      213: -4917983381667539783
+    second: NavRoomFloor_61
+  - first:
+      213: -4973353645040904442
+    second: NavRoomFloor_0
+  - first:
+      213: -9020109788888114175
+    second: NavRoomFloor_1
+  - first:
+      213: -6427696502956161639
+    second: NavRoomFloor_2
+  - first:
+      213: 7045728533309260188
+    second: NavRoomFloor_3
+  - first:
+      213: 4792675134852101289
+    second: NavRoomFloor_4
+  - first:
+      213: 7660340992166255560
+    second: NavRoomFloor_5
+  - first:
+      213: -3023660403133212503
+    second: NavRoomFloor_6
+  - first:
+      213: -863049746873854765
+    second: NavRoomFloor_7
+  - first:
+      213: 7550831915559850362
+    second: NavRoomFloor_8
+  - first:
+      213: 1457092780798145541
+    second: NavRoomFloor_9
+  - first:
+      213: -8088689218993978605
+    second: NavRoomFloor_10
+  - first:
+      213: -2300803155194170197
+    second: NavRoomFloor_11
+  - first:
+      213: -9211684932353549218
+    second: NavRoomFloor_12
+  - first:
+      213: 2479064079536744212
+    second: NavRoomFloor_13
+  - first:
+      213: 60498896965256718
+    second: NavRoomFloor_14
+  - first:
+      213: -6328227882814501471
+    second: NavRoomFloor_15
+  - first:
+      213: -5347126438140782280
+    second: NavRoomFloor_16
+  - first:
+      213: 6312529324739089829
+    second: NavRoomFloor_17
+  - first:
+      213: -3576724166736505151
+    second: NavRoomFloor_18
+  - first:
+      213: -4970760327748459055
+    second: NavRoomFloor_19
+  - first:
+      213: -5333900251876504063
+    second: NavRoomFloor_20
+  - first:
+      213: -2309159384825966786
+    second: NavRoomFloor_21
+  - first:
+      213: 4544670660261418064
+    second: NavRoomFloor_22
+  - first:
+      213: -5677820718885057013
+    second: NavRoomFloor_23
+  - first:
+      213: -6515967722112377606
+    second: NavRoomFloor_24
+  - first:
+      213: 741866740217442004
+    second: NavRoomFloor_25
+  - first:
+      213: -4718543304671240441
+    second: NavRoomFloor_26
+  - first:
+      213: 2500995677373188626
+    second: NavRoomFloor_27
+  - first:
+      213: 4350960162557988003
+    second: NavRoomFloor_28
+  - first:
+      213: 2595793635901620577
+    second: NavRoomFloor_29
+  - first:
+      213: 5975889292934762512
+    second: NavRoomFloor_30
+  - first:
+      213: 7634310682794539569
+    second: NavRoomFloor_31
+  - first:
+      213: -2136477256611870788
+    second: NavRoomFloor_32
+  - first:
+      213: -6116151246180870324
+    second: NavRoomFloor_33
+  - first:
+      213: 2047698249189211443
+    second: NavRoomFloor_34
+  - first:
+      213: 1637563013315046576
+    second: NavRoomFloor_35
+  - first:
+      213: -2382861348120438260
+    second: NavRoomFloor_36
+  - first:
+      213: 9022276614574851965
+    second: NavRoomFloor_37
+  - first:
+      213: 9167984784154567131
+    second: NavRoomFloor_38
+  - first:
+      213: 1816621006403370238
+    second: NavRoomFloor_39
+  - first:
+      213: -3808381722107727821
+    second: NavRoomFloor_40
+  - first:
+      213: 3970409955024082457
+    second: NavRoomFloor_41
+  - first:
+      213: 2270993878094332633
+    second: NavRoomFloor_42
+  - first:
+      213: -6004392773959927863
+    second: NavRoomFloor_43
+  - first:
+      213: 950739120527880913
+    second: NavRoomFloor_44
+  - first:
+      213: 5454721814407563325
+    second: NavRoomFloor_45
+  - first:
+      213: 3920925438555061720
+    second: NavRoomFloor_46
+  - first:
+      213: -2031340800075538409
+    second: NavRoomFloor_47
+  - first:
+      213: 7200533881475887606
+    second: NavRoomFloor_48
+  - first:
+      213: -263632823179836984
+    second: NavRoomFloor_49
+  - first:
+      213: 4229559843571336803
+    second: NavRoomFloor_50
+  - first:
+      213: -1242828233741639268
+    second: NavRoomFloor_51
+  - first:
+      213: -2784266400501004735
+    second: NavRoomFloor_52
+  - first:
+      213: -7023377134051122607
+    second: NavRoomFloor_53
+  - first:
+      213: -2369345767978911158
+    second: NavRoomFloor_54
+  - first:
+      213: 2756578905178510257
+    second: NavRoomFloor_55
+  - first:
+      213: -8995865454480240809
+    second: NavRoomFloor_56
+  - first:
+      213: -2291769794217837886
+    second: NavRoomFloor_57
+  - first:
+      213: -3084301244890690674
+    second: NavRoomFloor_58
+  - first:
+      213: 1226973913278202400
+    second: NavRoomFloor_59
+  - first:
+      213: -6041315175660635104
+    second: NavRoomFloor_60
+  - first:
+      213: 6543839263576637038
+    second: NavRoomFloor_61
+  - first:
+      213: 5689827713138613766
+    second: NavRoomFloor_62
+  - first:
+      213: -8846165845227418998
+    second: NavRoomFloor_63
+  - first:
+      213: 7891212723518525373
+    second: NavRoomFloor_64
+  - first:
+      213: -4879197131205669466
+    second: NavRoomFloor_65
+  - first:
+      213: -1915242148699581972
+    second: NavRoomFloor_66
+  - first:
+      213: 3003349291173223439
+    second: NavRoomFloor_67
+  - first:
+      213: 2492316536634917188
+    second: NavRoomFloor_68
+  - first:
+      213: -2336136695716082513
+    second: NavRoomFloor_69
+  - first:
+      213: 80244248779900243
+    second: NavRoomFloor_70
+  - first:
+      213: 289660763947949747
+    second: NavRoomFloor_71
+  - first:
+      213: -1446623325602917921
+    second: NavRoomFloor_72
+  - first:
+      213: 5511250761771124447
+    second: NavRoomFloor_73
+  - first:
+      213: -2744924320963681107
+    second: NavRoomFloor_74
+  - first:
+      213: 7433999794148998419
+    second: NavRoomFloor_75
+  - first:
+      213: -363610765837400557
+    second: NavRoomFloor_76
+  - first:
+      213: 1155351107299597481
+    second: NavRoomFloor_77
+  - first:
+      213: 5537605089490270449
+    second: NavRoomFloor_78
+  - first:
+      213: -1098139699847311271
+    second: NavRoomFloor_79
+  - first:
+      213: -3267149565234103617
+    second: NavRoomFloor_80
+  - first:
+      213: 7037675255929259453
+    second: NavRoomFloor_81
+  - first:
+      213: -6632726251477141718
+    second: NavRoomFloor_82
+  - first:
+      213: 4923169030545198880
+    second: NavRoomFloor_83
+  - first:
+      213: -2050968023573180166
+    second: NavRoomFloor_84
+  - first:
+      213: 2377411309488603877
+    second: NavRoomFloor_85
+  - first:
+      213: 5804565047799496418
+    second: NavRoomFloor_86
+  - first:
+      213: -8045501076671245452
+    second: NavRoomFloor_87
+  - first:
+      213: 5285833651326214742
+    second: NavRoomFloor_88
+  - first:
+      213: -8099532458884674935
+    second: NavRoomFloor_89
+  - first:
+      213: -1443954907036616492
+    second: NavRoomFloor_90
+  - first:
+      213: 1252035430408029845
+    second: NavRoomFloor_91
+  - first:
+      213: -572276029292465792
+    second: NavRoomFloor_92
+  - first:
+      213: -7421717261802696463
+    second: NavRoomFloor_93
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 125
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NavRoomFloor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60751f4b5391bfab0800000000000000
+      internalID: -4973353645040904442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cdc4600f122d280800000000000000
+      internalID: -9020109788888114175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9950741061c3cc6a0800000000000000
+      internalID: -6427696502956161639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c918bbb65c477c160800000000000000
+      internalID: 7045728533309260188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4f4b874a0038240800000000000000
+      internalID: 4792675134852101289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_5
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbde60db8ffe4a60800000000000000
+      internalID: 7660340992166255560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_6
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 875
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a894d522ecc906d0800000000000000
+      internalID: -3023660403133212503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4d71ee3d4d504f0800000000000000
+      internalID: -863049746873854765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7190a50f91f9c860800000000000000
+      internalID: 7550831915559850362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50472440a22a83410800000000000000
+      internalID: 1457092780798145541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_10
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3130553d2043fbf80800000000000000
+      internalID: -8088689218993978605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4bd8478b7e110e0800000000000000
+      internalID: -2300803155194170197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_12
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c9f301c55892080800000000000000
+      internalID: -9211684932353549218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_13
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417e73c45a7676220800000000000000
+      internalID: 2479064079536744212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_14
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 750
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06caee1d6fe6d000800000000000000
+      internalID: 60498896965256718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad8e1bd44e9d28a0800000000000000
+      internalID: -6328227882814501471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839d485b5d03bc5b0800000000000000
+      internalID: -5347126438140782280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a55f43c9fb9a9750800000000000000
+      internalID: 6312529324739089829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_18
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c69d16125cec5ec0800000000000000
+      internalID: -3576724166736505151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5e2f071df440bb0800000000000000
+      internalID: -4970760327748459055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_20
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ec88b2bfd2af5b0800000000000000
+      internalID: -5333900251876504063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_21
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f40b126c734ffd0800000000000000
+      internalID: -2309159384825966786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_22
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 625
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054950603e9e11f30800000000000000
+      internalID: 4544670660261418064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ec08873245431b0800000000000000
+      internalID: -5677820718885057013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_24
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc949b31e1a295a0800000000000000
+      internalID: -6515967722112377606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_25
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de6651aed3ab4a00800000000000000
+      internalID: 741866740217442004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_26
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fd5c34ddd548eb0800000000000000
+      internalID: -4718543304671240441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_27
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21acd96515255b220800000000000000
+      internalID: 2500995677373188626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_28
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac05292737b16c30800000000000000
+      internalID: 4350960162557988003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_29
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161c22a0f8c160420800000000000000
+      internalID: 2595793635901620577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_30
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 500
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010df6a76af9ee250800000000000000
+      internalID: 5975889292934762512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a30f02e1582f960800000000000000
+      internalID: 7634310682794539569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_32
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7c2f03145b952e0800000000000000
+      internalID: -2136477256611870788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_33
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4793daa8d01f1ba0800000000000000
+      internalID: -6116151246180870324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_34
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dbc1e55b2ea6c10800000000000000
+      internalID: 2047698249189211443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_35
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc26f962eac9b610800000000000000
+      internalID: 1637563013315046576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_36
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ad5449a306eeed0800000000000000
+      internalID: -2382861348120438260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_37
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d774c0567c0953d70800000000000000
+      internalID: 9022276614574851965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_38
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd128bd46993b3f70800000000000000
+      internalID: 9167984784154567131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc7f223e2fe53910800000000000000
+      internalID: 1816621006403370238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_40
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330bdac5009e52bc0800000000000000
+      internalID: -3808381722107727821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_41
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91692e561dab91730800000000000000
+      internalID: 3970409955024082457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_42
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d246ee56e0348f10800000000000000
+      internalID: 2270993878094332633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_43
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c73230b59c1caca0800000000000000
+      internalID: -6004392773959927863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_44
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2b1216134b13d00800000000000000
+      internalID: 950739120527880913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_45
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d384650079013bb40800000000000000
+      internalID: 5454721814407563325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_46
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddfdd399ece96630800000000000000
+      internalID: 3920925438555061720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7106db90e4a3fc3e0800000000000000
+      internalID: -2031340800075538409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_48
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1f8864a6f6de360800000000000000
+      internalID: 7200533881475887606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_49
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c18b371853675cf0800000000000000
+      internalID: -263632823179836984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_50
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3668350c44a62ba30800000000000000
+      internalID: 4229559843571336803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_51
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91e0036e4690cee0800000000000000
+      internalID: -1242828233741639268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_52
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146051ed57c4c59d0800000000000000
+      internalID: -2784266400501004735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_53
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152284145b3f78e90800000000000000
+      internalID: -7023377134051122607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_54
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4aba8dc3946e1fd0800000000000000
+      internalID: -2369345767978911158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b31086c8e5514620800000000000000
+      internalID: 2756578905178510257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_56
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f4f720804482380800000000000000
+      internalID: -8995865454480240809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_57
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cafca4b38ff130e0800000000000000
+      internalID: -2291769794217837886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_58
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bcefdeb5c5235d0800000000000000
+      internalID: -3084301244890690674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_59
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0224e99f546170110800000000000000
+      internalID: 1226973913278202400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_60
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c32922bdfe82ca0800000000000000
+      internalID: -6041315175660635104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavRoomFloor_61
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e3db4b32360da50800000000000000
+      internalID: 6543839263576637038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
