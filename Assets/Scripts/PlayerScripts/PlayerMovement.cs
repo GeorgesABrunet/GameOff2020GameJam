@@ -90,4 +90,13 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("IsSit", false);
         anim.SetTrigger("IsStanding");
     }
+
+    public bool isMoving()
+    {
+        if (anim.GetBool("IsWalk"))
+        {
+            return true;
+        }
+        else return false;
+    }
 }
