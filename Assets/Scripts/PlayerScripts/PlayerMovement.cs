@@ -52,4 +52,13 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("IsWalk", Math.Abs(_movement.sqrMagnitude) > Mathf.Epsilon);
         }
     }
+
+    public bool isMoving()
+    {
+        if (anim.GetBool("IsWalk"))
+        {
+            return true;
+        }
+        else return false;
+    }
 }
