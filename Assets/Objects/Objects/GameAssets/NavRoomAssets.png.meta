@@ -173,12 +173,12 @@ TextureImporter:
       name: NavRoomAssets_0
       rect:
         serializedVersion: 2
-        x: 20
+        x: 21
         y: 661
-        width: 445
-        height: 225
+        width: 441
+        height: 224
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: NavRoomAssets_1
       rect:
         serializedVersion: 2
-        x: 480
-        y: 576
-        width: 506
-        height: 420
+        x: 476
+        y: 60
+        width: 519
+        height: 936
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: NavRoomAssets_2
       rect:
         serializedVersion: 2
-        x: 180
-        y: 379
-        width: 251
-        height: 267
-      alignment: 9
-      pivot: {x: 0.49592122, y: 0.20090945}
+        x: 181
+        y: 382
+        width: 250
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: NavRoomAssets_3
       rect:
         serializedVersion: 2
-        x: 477
-        y: 8
-        width: 521
-        height: 522
+        x: 84
+        y: 198
+        width: 266
+        height: 172
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: NavRoomAssets_4
       rect:
         serializedVersion: 2
-        x: 83
-        y: 200
-        width: 268
-        height: 170
+        x: 24
+        y: 8
+        width: 447
+        height: 173
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -270,27 +270,6 @@ TextureImporter:
       bones: []
       spriteID: de215fc81f12c65d0800000000000000
       internalID: -3068039924810444051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NavRoomAssets_5
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 8
-        width: 447
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b7f97f7cd037d810800000000000000
-      internalID: 1789953100492699569
       vertices: []
       indices: 
       edges: []

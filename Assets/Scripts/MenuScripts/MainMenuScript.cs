@@ -7,6 +7,11 @@ public class MainMenuScript : MonoBehaviour
 {
     private float PlayTime = 4f;
     public static bool GoTime = false;
+
+    public void Start()
+    {
+        GoTime = false;
+    }
     public void PlayLoad()
     {
         GoTime = true;

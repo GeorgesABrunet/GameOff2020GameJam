@@ -9,6 +9,7 @@ public class StationDoor : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -18,6 +19,11 @@ public class StationDoor : MonoBehaviour
         {
             ShipStart = true;
             anim.SetBool("DoorOpen", true);
+        }
+        else
+        {
+            ShipStart = false;
+            anim.SetBool("DoorOpen", false);
         }
     }
 }
