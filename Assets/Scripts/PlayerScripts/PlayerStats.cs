@@ -84,4 +84,35 @@ public class PlayerStats : MonoBehaviour
         }
 
     }
+
+    //function for event of eating processed food
+    //called upon from object's event system
+    //increases belly by 10 up to a max of 100 and decreases Hydation by 5
+    public void eatProcessedFood()
+    {
+        if (Belly < 90)
+        {
+            Belly = Belly + 10;
+        }
+        else if(Belly > 90 && Belly < 100)
+        {
+            Belly = MaxBelly;
+        }
+        Hydration = Hydration - 5;
+    }
+
+    //function for event of drinking water
+    //called upon from object's event system
+    //increases hydration by 10 (TODO: add water as resource)
+    public void drinkWater()
+    {
+        if (Hydration < 90)
+        {
+            Hydration = Hydration + 10;
+        }
+        else if(Hydration > 90 && Hydration < 100)
+        {
+            Hydration = MaxHydration;
+        }
+    }
 }
