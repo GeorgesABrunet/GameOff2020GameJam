@@ -18,7 +18,10 @@ public class ObjectInteraction : MonoBehaviour
         if(Input.GetButtonDown("Interact") && inRange)
         {
             interactAction.Invoke();
-            AudioSource.PlayClipAtPoint(soundEffect, transform.position);
+            if (soundEffect != null)
+            {
+                AudioSource.PlayClipAtPoint(soundEffect, transform.position);
+            }
         }
     }
 
