@@ -31,6 +31,7 @@ public class PlayerStats : MonoBehaviour
 
     public PlayerMovement isPlayerMoving;
 
+
     // Start is called before the first frame update
     void Start()
     {

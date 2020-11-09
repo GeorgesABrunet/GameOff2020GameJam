@@ -1279,6 +1279,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  soundEffect: {fileID: 8300000, guid: c498cea1531e20848bb8c187d58b24aa, type: 3}
 --- !u!58 &525953210
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1937,6 +1938,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  soundEffect: {fileID: 8300000, guid: 2477490dc2d75d440820763665a038f5, type: 3}
 --- !u!1 &729131671
 GameObject:
   m_ObjectHideFlags: 0
@@ -3047,8 +3049,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1212225351}
   - component: {fileID: 1212225352}
-  - component: {fileID: 1212225353}
-  - component: {fileID: 1212225354}
   m_Layer: 0
   m_Name: Sanity
   m_TagString: InteractableObj
@@ -3072,7 +3072,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.99, y: 2.4}
+  m_AnchoredPosition: {x: -2.69, y: 2.4}
   m_SizeDelta: {x: 2.73, y: 2.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1212225352
@@ -3126,61 +3126,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1212225353
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1212225350}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.011443675, y: -0.17165565}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.73, y: 2.22}
-    newSize: {x: 2.73, y: 2.22}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.7458359, y: 2.5633116}
-  m_EdgeRadius: 0
---- !u!114 &1212225354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1212225350}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f351b624d1b5cbc4fa69119d2025d9ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inRange: 0
-  interactKey: 101
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1212225350}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1215323315
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,6 +9,8 @@ public class ObjectInteraction : MonoBehaviour
     public KeyCode interactKey;
     public UnityEvent interactAction;
 
+    public AudioClip soundEffect;
+
     //checks for button and inRange of object to interact with
     //if passes check then invokes the event tied to the object
     void Update()
@@ -16,6 +18,7 @@ public class ObjectInteraction : MonoBehaviour
         if(Input.GetButtonDown("Interact") && inRange)
         {
             interactAction.Invoke();
+            AudioSource.PlayClipAtPoint(soundEffect, transform.position);
         }
     }
 
