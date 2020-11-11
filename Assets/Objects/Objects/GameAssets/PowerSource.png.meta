@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: 94c1f740e4cf9a7409a68d9a1a6e218a
+guid: 31767dc7270e956438c5b25052d267ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6707583039002508263
-    second: PlantsSetUp_0
+      213: -5252686925639289402
+    second: PowerSource_0
   - first:
-      213: -5385922876827936435
-    second: PlantsSetUp_1
+      213: 2751979114683535902
+    second: PowerSource_1
   - first:
-      213: 2444771930394898242
-    second: PlantsSetUp_2
-  - first:
-      213: -4838376794264346408
-    second: PlantsSetUp_3
-  - first:
-      213: -3407473643021966955
-    second: PlantsSetUp_4
-  - first:
-      213: 904019666175586848
-    second: PlantsSetUp_5
+      213: 8966873702044324266
+    second: PowerSource_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -155,127 +146,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlantsSetUp_0
+      name: PowerSource_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 540
-        width: 328
-        height: 310
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ebfd255c3f161d50800000000000000
-      internalID: 6707583039002508263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlantsSetUp_1
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 601
-        width: 217
-        height: 304
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d49550bedab5145b0800000000000000
-      internalID: -5385922876827936435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlantsSetUp_2
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 542
-        width: 327
-        height: 305
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24fa8042e139de120800000000000000
-      internalID: 2444771930394898242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlantsSetUp_3
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 240
-        width: 218
-        height: 171
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d06160c0f1aadcb0800000000000000
-      internalID: -4838376794264346408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlantsSetUp_4
-      rect:
-        serializedVersion: 2
-        x: 380
-        y: 149
+        x: 48
+        y: 943
         width: 228
-        height: 331
-      alignment: 9
-      pivot: {x: 0.52509576, y: 0.42838445}
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5916b2676c836b0d0800000000000000
-      internalID: -3407473643021966955
+      spriteID: 6c57ee03215ba17b0800000000000000
+      internalID: -5252686925639289402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlantsSetUp_5
+      name: PowerSource_1
       rect:
         serializedVersion: 2
-        x: 789
-        y: 197
-        width: 141
-        height: 143
+        x: 943
+        y: 939
+        width: 243
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 022fc50c819bb8c00800000000000000
-      internalID: 904019666175586848
+      spriteID: e1291089c6ef03620800000000000000
+      internalID: 2751979114683535902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerSource_2
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 479
+        width: 392
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1d42c9f1cb07c70800000000000000
+      internalID: 8966873702044324266
       vertices: []
       indices: 
       edges: []
