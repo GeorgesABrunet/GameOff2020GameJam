@@ -109,23 +109,34 @@ public class PlayerStats : MonoBehaviour
     void Update()
     {
         //Constant Hydration rate and adjusting sliders appropriately- TODO: add positive increment for drinking water
-        hydration = hydration - hydrationRate * Time.deltaTime;
-        hydrationSlider.value = hydration;
-
+        if (hydration > 0)
+        {
+            hydration = hydration - hydrationRate * Time.deltaTime;
+            hydrationSlider.value = hydration;
+        }
 
         //Constant Belly rate and adjusting sliders appropriately over time - TODO: add positive increment to belly values for eating food (fresh and space food)
-        belly = belly - bellyRate * Time.deltaTime;
-        bellySlider.value = belly;
+        if (belly > 0)
+        {
+            belly = belly - bellyRate * Time.deltaTime;
+            bellySlider.value = belly;
+        }
 
         //calls on isMoving function from PlayerMovement script to determine if player is moving
         //if player is moving, increases body heat till max
         //if player staying still, decreases body heat
         if (isPlayerMoving.isMoving() == false)
         {
-            bodyHeat = bodyHeat - bodyHeatRate * Time.deltaTime;
-            bodyHeatSlider.value = bodyHeat;
-            sanity = sanity - sanityRate * Time.deltaTime;
-            sanitySlider.value = sanity;
+            if (bodyHeat > 0)
+            {
+                bodyHeat = bodyHeat - bodyHeatRate * Time.deltaTime;
+                bodyHeatSlider.value = bodyHeat;
+            }
+            if (sanity > 0)
+            {
+                sanity = sanity - sanityRate * Time.deltaTime;
+                sanitySlider.value = sanity;
+            }
         }
         else if (isPlayerMoving.isMoving() == true && bodyHeat < maxBodyHeat)
         {
@@ -145,20 +156,19 @@ public class PlayerStats : MonoBehaviour
 
         //O2 slider adjusted to O2 amount
         //creates new consumption or production rate of oxygen based on amount of plants
-        oxygenSlider.value = oxygen;
         if (plants > 8)
         {
             oxygenRate = -0.2f;
         }
         else if (plants < 5)
         {
-            oxygenRate = 0.5f * plants;
+            oxygenRate = 0.2f;
         }
         else
         {
             oxygenRate = 0;
         }
-        if (oxygen > 0 && oxygenRate > 0 || oxygen < 100 && oxygenRate <= 0)
+        if (oxygen > 0 && oxygenRate > 0 || oxygen <= 100 && oxygenRate <= 0)
         {
             oxygen = oxygen - oxygenRate * Time.deltaTime;
             oxygenSlider.value = oxygen;
@@ -175,39 +185,46 @@ public class PlayerStats : MonoBehaviour
     //increases belly by 10 up to a max of 100 and decreases Hydation by 5
     public void eatProcessedFood()
     {
-        if (belly < 90)
+        if (plants > 0)
         {
-            belly = belly + 10;
+            if (belly < 90)
+            {
+                belly = belly + 10;
+            }
+            else if(belly > 90 && belly < 100)
+            {
+                belly = maxBelly;
+            }
+            hydration = hydration - 5;
+            plants = plants - 1;
         }
-        else if(belly > 90 && belly < 100)
-        {
-            belly = maxBelly;
-        }
-        hydration = hydration - 5;
-        plants = plants - 2;
     }
+
 
     //function for event of drinking water
     //called upon from object's event system
     //increases hydration by 10 (TODO: add water as resource)
     public void drinkWater()
     {
-        if (hydration < 90)
+        if (water > 4 && bodyHeat > 4)
         {
-            hydration = hydration + 10;
-        }
-        else if(hydration > 90 && hydration < 100)
-        {
-            hydration = maxHydration;
-        }
+            if (hydration < 90)
+            {
+                hydration = hydration + 10;
+            }
+            else if(hydration > 90 && hydration < 100)
+            {
+                hydration = maxHydration;
+            }
 
-        bodyHeat = bodyHeat - 10;
-        water = water - 10;
+            bodyHeat = bodyHeat - 5;
+            water = water - 5;
+        }
     }
 
     public void tendGarden()
     {
-        if( plants < 10 )
+        if( plants < 10  && water > 9)
         {
             plants = plants + 1;
             water = water - 10;
@@ -224,15 +241,36 @@ public class PlayerStats : MonoBehaviour
 
     public void makeWater()
     {
-        if (water < 90)
+        if (oxygen > 9 && fuel > 19)
         {
-            water = water + 10;
+            if (water < 90)
+            {
+                water = water + 10;
+            }
+            else if (water > 90 && water < 100)
+            {
+                water = maxWater;
+            }
+            oxygen = oxygen - 10;
+            fuel = fuel - 20;
         }
-        else if (water > 90 && water < 100)
+        
+    }
+
+    public void makeFuel()
+    {
+        if (plants > 0)
         {
-            water = maxWater;
+            if(fuel < 90)
+            {
+                fuel = fuel + 10;
+            }
+            else if ( fuel > 90 && fuel < 100)
+            {
+                fuel = maxFuel;
+            }
+            plants = plants - 1;
         }
-        oxygen = oxygen - 10;
-        fuel = fuel - 20;
+
     }
 }

@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f351b624d1b5cbc4fa69119d2025d9ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inRange: 1
+  inRange: 0
   interactKey: 101
   interactAction:
     m_PersistentCalls:
@@ -61,6 +61,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  soundEffect: {fileID: 0}
 --- !u!58 &4069519287897108561
 CircleCollider2D:
   m_ObjectHideFlags: 0
