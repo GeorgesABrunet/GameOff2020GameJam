@@ -185,7 +185,7 @@ public class PlayerStats : MonoBehaviour
     //increases belly by 10 up to a max of 100 and decreases Hydation by 5
     public void eatProcessedFood()
     {
-        if (plants > 0)
+         if (hydration > 4)
         {
             if (belly < 90)
             {
@@ -196,6 +196,22 @@ public class PlayerStats : MonoBehaviour
                 belly = maxBelly;
             }
             hydration = hydration - 5;
+        }
+
+    }
+
+    public void eatFreshFood()
+    {
+         if (plants > 0)
+        {
+            if (belly < 95)
+            {
+                belly = belly + 5;
+            }
+            else if (belly > 95 && belly < 100)
+            {
+                belly = maxBelly;
+            }
             plants = plants - 1;
         }
     }
