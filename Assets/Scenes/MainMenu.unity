@@ -1635,8 +1635,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 133, y: 262}
-  m_SizeDelta: {x: -277.26538, y: -651.03186}
+  m_AnchoredPosition: {x: 153, y: 246}
+  m_SizeDelta: {x: -340.82697, y: -586.3296}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &976837572
 MonoBehaviour:
@@ -1660,9 +1660,9 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ae6494c399e61ee49bccc83ef0fb05d4, type: 3}
-    m_FontSize: 60
+    m_FontSize: 0
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 300
     m_Alignment: 4
@@ -1671,7 +1671,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: game title
+  m_Text: "Mission\n 13151514"
 --- !u!222 &976837573
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1837,7 +1837,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 339, y: 78}
+  m_AnchoredPosition: {x: 339, y: 47}
   m_SizeDelta: {x: -803.8042, y: -683.93774}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1026757779
@@ -2966,7 +2966,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 76, y: 78}
+  m_AnchoredPosition: {x: 76, y: 47}
   m_SizeDelta: {x: -786.5425, y: -683.93774}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1597486580
