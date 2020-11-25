@@ -8,12 +8,15 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 _movement;
     private Animator anim;
 
+    private AudioSource footStep;
+
     private bool BoiIsStanding;
     private void Start()
     {
         BoiIsStanding = true;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        footStep = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -60,6 +63,18 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = _movement * speed;
             anim.SetBool("IsWalk", Math.Abs(_movement.sqrMagnitude) > Mathf.Epsilon);
+        }
+        //MOVEMENT SOUNDS
+        if (anim.GetBool("IsWalk"))
+        {
+            if (!footStep.isPlaying)
+            {
+                footStep.Play();
+            }
+        }
+        else
+        {
+            footStep.Stop();
         }
 
         //ACTIONS

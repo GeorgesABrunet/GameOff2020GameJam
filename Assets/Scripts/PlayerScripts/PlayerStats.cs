@@ -57,6 +57,11 @@ public class PlayerStats : MonoBehaviour
     public int plants = 0;
     public Slider plantSlider;
 
+    [Header("Distance Left")]
+    public int maxDistance = 1000;
+    public int distance = 0;
+    public Slider distanceSlider;
+
     public PlayerMovement isPlayerMoving;
 
 
@@ -99,6 +104,10 @@ public class PlayerStats : MonoBehaviour
         plants = maxPlants;
         plantSlider.maxValue = maxPlants;
         plantSlider.value = maxPlants;
+
+        distance = maxDistance;
+        distanceSlider.maxValue = maxDistance;
+        distanceSlider.value = maxDistance;
 
         //finds the isMoving function form PlayerMovementScript to call on later
         isPlayerMoving = FindObjectOfType<PlayerMovement>();
@@ -153,6 +162,8 @@ public class PlayerStats : MonoBehaviour
 
         //fuel sliders adjusted to fuel amount
         fuelSlider.value = fuel;
+
+        distanceSlider.value = distance;
 
         //O2 slider adjusted to O2 amount
         //creates new consumption or production rate of oxygen based on amount of plants
@@ -288,5 +299,21 @@ public class PlayerStats : MonoBehaviour
             plants = plants - 1;
         }
 
+    }
+
+    public void travel()
+    {
+        if (fuel >= 50)
+        {
+            if(distance >= 100)
+            {
+                fuel = fuel - 75;
+                distance = distance -100;
+            }
+            else
+            {
+                distance = 0;
+            }
+        }
     }
 }
