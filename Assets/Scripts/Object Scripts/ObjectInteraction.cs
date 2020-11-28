@@ -6,6 +6,8 @@ using UnityEngine.Events;
 public class ObjectInteraction : MonoBehaviour
 {
     public bool inRange;
+
+    public GameObject guiInteract;
     public KeyCode interactKey;
     public UnityEvent interactAction;
 
@@ -13,9 +15,22 @@ public class ObjectInteraction : MonoBehaviour
 
     //checks for button and inRange of object to interact with
     //if passes check then invokes the event tied to the object
+    void Start()
+    {
+        guiInteract.SetActive(false);
+    }
     void Update()
     {
-        if(Input.GetButtonDown("Interact") && inRange)
+        if (inRange == true)
+        {
+            guiInteract.SetActive(true);
+        }
+        else if(inRange == false)
+        {
+            guiInteract.SetActive(false);
+        }
+
+        if(inRange && Input.GetButtonDown("Interact"))
         {
             interactAction.Invoke();
             if (soundEffect != null)
@@ -31,6 +46,7 @@ public class ObjectInteraction : MonoBehaviour
     {
         if (collisionObject.gameObject.CompareTag("Player"))
         {
+            //guiInteract.SetActive(true);
             inRange = true;
             Debug.Log ("Player in range of obj");
         }
@@ -43,6 +59,7 @@ public class ObjectInteraction : MonoBehaviour
         if (collisionObject.gameObject.CompareTag("Player"))
         {
             inRange = false;
+            //guiInteract.SetActive(false);
             Debug.Log ("Player no longer in range of obj");
         }
     }
