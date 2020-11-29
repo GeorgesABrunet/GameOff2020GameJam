@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: 7082107573211094876
     second: GunsForPlayer_1
+  - first:
+      213: -3927617086082318819
+    second: GunsForPlayer_0
+  - first:
+      213: -8928951519736570180
+    second: GunsForPlayer_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -146,19 +152,19 @@ TextureImporter:
       name: GunsForPlayer_0
       rect:
         serializedVersion: 2
-        x: 20
+        x: 43
         y: 279
         width: 437
         height: 149
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.3334621, y: 0.28721547}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61453cc1eace61860800000000000000
-      internalID: 7500442461983167510
+      spriteID: d1efe42d11d4e79c0800000000000000
+      internalID: -3927617086082318819
       vertices: []
       indices: 
       edges: []
@@ -168,18 +174,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 22
-        y: 89
+        y: 67
         width: 460
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5fd952b053b84260800000000000000
-      internalID: 7082107573211094876
+      spriteID: cbeda6186edf51480800000000000000
+      internalID: -8928951519736570180
       vertices: []
       indices: 
       edges: []

@@ -4,23 +4,19 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    private float offset = 0f;
     public GameObject projectile;
     public Transform shotPoint;
     public AudioSource PewPew;
-
     private float timeShots;
-
     private float startTimeShots = 0.25f;
+
     public void Start()
     {
         PewPew = GetComponent<AudioSource>();
     }
     public void Update()
     {
-        Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-        float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0f, 0f, rotZ + offset);
+        FaceMouse();
 
         if (timeShots <= 0)
         {
@@ -37,7 +33,16 @@ public class Weapon : MonoBehaviour
             PewPew.Stop();
             timeShots -= Time.deltaTime;
         }
+    }
+    void FaceMouse()
+    {
+        Vector3 lookDirection = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
+        float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
-        
+        if (lookDirection.x < transform.position.x)
+        {
+            transform.rotation = Quaternion.Euler(0, 180, (180-angle));
+        }
     }
 }
