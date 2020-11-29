@@ -21,7 +21,7 @@ public class ShipLaunch : MonoBehaviour
         if (StationDoor.ShipStart == true)
         {
             anim2.SetBool("Blasting", true);
-            rb.velocity = new Vector2(1.2f,-0.1f);
+            rb.velocity = new Vector2(3f,-0.1f);
         }
     }
 }

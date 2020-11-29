@@ -6,20 +6,20 @@ using TMPro;
 public class OxygenStorageDisplay : MonoBehaviour
 {
     private TextMeshProUGUI ResourceDisplay;
-    private PlayerStats stats;
-    private float oxygenstored;
+    public OxygenStats stats;
+    public int oxygenStored;
 
-    void Start()
+    public void Start()
     {
         ResourceDisplay = GetComponent<TMPro.TextMeshProUGUI>();
-        stats = FindObjectOfType<PlayerStats>();
-        oxygenstored = stats.maxOxygen;
+        stats = FindObjectOfType<OxygenStats>();
+        oxygenStored = stats.maxOxygenHealth;
     }
 
     // Update is called once per frame
     void Update()
     {
-        oxygenstored = stats.oxygen;
-        ResourceDisplay.text = "Oxygen: " + oxygenstored + " %";
+        oxygenStored = stats.currentOxygenHealth;
+        ResourceDisplay.text = "Oxygen: " + oxygenStored;
     }
 }
