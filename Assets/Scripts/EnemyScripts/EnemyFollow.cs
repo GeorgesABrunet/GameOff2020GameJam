@@ -9,22 +9,28 @@ public class EnemyFollow : MonoBehaviour
 
     private Animator enemyAnim;
 
-    public float speed = 5f;
-    public float nextWaypointDistance = 2f;
+    private float speed = 500f;
+    public float nextWaypointDistance = 4f;
 
-    public float stoppingDistance;
-    public float attackDistance;
+    public float stoppingDistance = 3;
+    public float attackDistance = 5;
 
     private Destructable destructableTarget;
 
     private Transform target;
     private Transform playerTarget;
 
+    private Rigidbody2D enemyRb;
+
     Path path;
     int currentWaypoint = 0;
     bool reachedEndOfPath = false;
 
     Seeker seeker;
+
+    //shooting variables
+    private float timeBetweenShots;
+    public float startTimeBetweenShots;
 
 
     private List<Vector3> pathVectorList;
@@ -35,15 +41,19 @@ public class EnemyFollow : MonoBehaviour
         enemyAnim = GetComponent<Animator>();
         playerTarget = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
 
+        enemyRb = GetComponent<Rigidbody2D>();
 
         InvokeRepeating("UpdatePath", 0f, .5f);
+
+        //set time variable at start
+        timeBetweenShots = startTimeBetweenShots;
     }
 
     void UpdatePath()
     {
         if(seeker.IsDone())
         {
-            seeker.StartPath(transform.position, target.position, OnPathComplete);
+            seeker.StartPath(enemyRb.position, target.position, OnPathComplete);
         }
     }
 
@@ -58,6 +68,7 @@ public class EnemyFollow : MonoBehaviour
         {
             target = playerTarget;
         }
+        //target = playerTarget;
         if (Vector2.Distance(transform.position, target.position) > stoppingDistance)
         {
             if (path == null)
@@ -73,11 +84,13 @@ public class EnemyFollow : MonoBehaviour
             {
                 reachedEndOfPath = false;
             }
-            Vector2 direction = (path.vectorPath[currentWaypoint] - transform.position).normalized;
+            Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - enemyRb.position).normalized;
             Vector2 force = direction * speed * Time.deltaTime;
 
-            float distance = Vector2.Distance(transform.position, path.vectorPath[currentWaypoint]);
-            transform.position = Vector2.MoveTowards(transform.position, direction, speed * Time.deltaTime);
+            enemyRb.AddForce(force);
+
+            float distance = Vector2.Distance(enemyRb.position, path.vectorPath[currentWaypoint]);
+            //transform.position = Vector2.MoveTowards(transform.position, direction, speed * Time.deltaTime);
 
             if (distance < nextWaypointDistance)
             {
@@ -99,6 +112,7 @@ public class EnemyFollow : MonoBehaviour
         {
             enemyAnim.SetBool("IsWalk", false);
         }
+
     }
 
     void OnPathComplete(Path p)

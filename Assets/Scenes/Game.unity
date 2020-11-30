@@ -16664,6 +16664,7 @@ GameObject:
   - component: {fileID: 468737673}
   - component: {fileID: 468737678}
   - component: {fileID: 468737679}
+  - component: {fileID: 468737680}
   m_Layer: 9
   m_Name: SlidingDoor
   m_TagString: Untagged
@@ -16911,6 +16912,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &468737680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468737672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16cd0bde581d19a469f39c87999db069, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &506030865
 GameObject:
   m_ObjectHideFlags: 0
@@ -23962,6 +23975,7 @@ GameObject:
   - component: {fileID: 887447296}
   - component: {fileID: 887447295}
   - component: {fileID: 887447301}
+  - component: {fileID: 887447302}
   m_Layer: 9
   m_Name: SlidingDoor (1)
   m_TagString: Untagged
@@ -24209,6 +24223,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &887447302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887447294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16cd0bde581d19a469f39c87999db069, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &898103744
 GameObject:
   m_ObjectHideFlags: 0
@@ -25903,6 +25929,7 @@ GameObject:
   - component: {fileID: 1174585924}
   - component: {fileID: 1174585923}
   - component: {fileID: 1174585928}
+  - component: {fileID: 1174585929}
   m_Layer: 9
   m_Name: HangarDoor
   m_TagString: Untagged
@@ -26052,6 +26079,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c798e231ec912f840b49f0a45cbaae64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1174585929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174585922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16cd0bde581d19a469f39c87999db069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1181078420
@@ -26638,6 +26677,7 @@ GameObject:
   - component: {fileID: 1222282986}
   - component: {fileID: 1222282985}
   - component: {fileID: 1222282990}
+  - component: {fileID: 1222282991}
   m_Layer: 9
   m_Name: SlidingDoor (2)
   m_TagString: Untagged
@@ -26885,6 +26925,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1222282991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222282983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16cd0bde581d19a469f39c87999db069, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1223918299
 GameObject:
   m_ObjectHideFlags: 0
@@ -33422,6 +33474,7 @@ GameObject:
   - component: {fileID: 1405967199}
   - component: {fileID: 1405967198}
   - component: {fileID: 1405967203}
+  - component: {fileID: 1405967204}
   m_Layer: 9
   m_Name: SlidingDoor (3)
   m_TagString: Untagged
@@ -33669,6 +33722,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1405967204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405967196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16cd0bde581d19a469f39c87999db069, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1415184504
 GameObject:
   m_ObjectHideFlags: 0
@@ -36068,7 +36133,6 @@ GameObject:
   - component: {fileID: 1726738516}
   - component: {fileID: 1726738517}
   - component: {fileID: 1726738519}
-  - component: {fileID: 1726738518}
   m_Layer: 8
   m_Name: Enemy1
   m_TagString: Enemy
@@ -36089,7 +36153,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 2.1
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -36151,8 +36215,8 @@ MonoBehaviour:
   - {fileID: 880205428}
   - {fileID: 404116495}
   m_Bounds:
-    m_Center: {x: -0.43604696, y: 0.008369923, z: 0}
-    m_Extent: {x: 0.868942, y: 1.2616311, z: 0}
+    m_Center: {x: -0.43604684, y: 0.008369923, z: 0}
+    m_Extent: {x: 0.8689419, y: 1.2616311, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!212 &1726738513
@@ -36214,7 +36278,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726738509}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.6, y: 0.96, z: 0}
+  m_LocalPosition: {x: 1.61, y: 0.96, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children:
   - {fileID: 738258045}
@@ -36275,26 +36339,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 728a34b9d4840724fa98e27b30f31b4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  nextWaypointDistance: 2
-  stoppingDistance: 0
-  attackDistance: 0
---- !u!114 &1726738518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726738509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 728a34b9d4840724fa98e27b30f31b4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  nextWaypointDistance: 2
-  stoppingDistance: 3
+  nextWaypointDistance: 4
   attackDistance: 5
+  followDistance: 5
+  startTimeBetweenShots: 2
+  projectile: {fileID: 7653287318602343225, guid: 2057007beccc56b4b80f7871f36927ff, type: 3}
 --- !u!114 &1726738519
 MonoBehaviour:
   m_ObjectHideFlags: 0
