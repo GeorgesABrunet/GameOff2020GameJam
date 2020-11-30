@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+    Class created by Poot
+*/
 public class Weapon : MonoBehaviour
 {
     public GameObject projectile;
     public Transform shotPoint;
     public AudioSource PewPew;
     private float timeShots;
-    private float startTimeShots = 0.25f;
+    private float startTimeShots = 0.1f;
 
     public void Start()
     {
@@ -20,7 +23,7 @@ public class Weapon : MonoBehaviour
 
         if (timeShots <= 0)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetKey(KeyCode.Mouse0))
             {
                 PewPew.Play();
 

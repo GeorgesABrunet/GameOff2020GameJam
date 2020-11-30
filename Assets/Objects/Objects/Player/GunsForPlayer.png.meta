@@ -152,12 +152,12 @@ TextureImporter:
       name: GunsForPlayer_0
       rect:
         serializedVersion: 2
-        x: 43
+        x: 56
         y: 279
-        width: 437
+        width: 405
         height: 149
       alignment: 9
-      pivot: {x: 0.3334621, y: 0.28721547}
+      pivot: {x: 0.3879121, y: 0.3404115}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -177,8 +177,8 @@ TextureImporter:
         y: 67
         width: 460
         height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.17963107, y: 0.55728686}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
