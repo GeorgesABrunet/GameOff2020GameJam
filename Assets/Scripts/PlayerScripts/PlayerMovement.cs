@@ -1,9 +1,14 @@
 ﻿using System;
 using UnityEngine;
 
+/*
+    Class created by Poot
+*/
 public class PlayerMovement : MonoBehaviour
 {
     private float speed = 5f;
+
+    private float runSpeed = 8f;
     private Rigidbody2D rb;
     private Vector2 _movement;
     private Animator anim;
@@ -57,12 +62,23 @@ public class PlayerMovement : MonoBehaviour
         if (inputX == 0 && inputY == 0) 
         {
             anim.SetBool("IsWalk", false);
+            anim.SetBool("IsRun", false);
             rb.velocity = _movement * 0;
         }
         else
         {
-            rb.velocity = _movement * speed;
-            anim.SetBool("IsWalk", Math.Abs(_movement.sqrMagnitude) > Mathf.Epsilon);
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                rb.velocity = _movement * runSpeed;
+                anim.SetBool("IsRun", true);
+            }
+            else
+            {
+                anim.SetBool("IsRun", false);
+                rb.velocity = _movement * speed;
+                //anim.SetBool("IsWalk", Math.Abs(_movement.sqrMagnitude) > Mathf.Epsilon);
+            }
+            anim.SetBool("IsWalk", Math.Abs(_movement.sqrMagnitude) > Mathf.Epsilon);  
         }
         //MOVEMENT SOUNDS
         if (anim.GetBool("IsWalk"))

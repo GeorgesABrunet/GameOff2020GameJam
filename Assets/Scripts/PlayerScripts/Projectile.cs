@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+    Class created by Poot
+*/
 public class Projectile : MonoBehaviour
 {
     private float speed = 20f;
