@@ -1,16 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class HangarDoor : MonoBehaviour
 {
     private Animator doorAnim;
     private AudioSource slidingDoor;
 
+    public int maxDoorHealth = 300;
+    public int currentDoorHealth;
+
+
     void Start()
     {
         doorAnim = GetComponent<Animator>();
         slidingDoor = GetComponent<AudioSource>();
+        currentDoorHealth = maxDoorHealth;
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -41,5 +47,22 @@ public class HangarDoor : MonoBehaviour
      void OnTriggerExit2D()
     {
         doorAnim.SetBool("Open", false);
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if (currentDoorHealth > 0)
+        {
+            currentDoorHealth -= damage;
+            Debug.Log("aw Door's eating it dood");
+
+        }
+        
+        if(currentDoorHealth <= 0)
+        {
+            Destroy(gameObject);
+            var graphToScan = AstarPath.active.data.gridGraph;
+            AstarPath.active.Scan(graphToScan);
+        }
     }
 }

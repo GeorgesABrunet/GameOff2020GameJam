@@ -9,11 +9,11 @@ public class EnemyFollow : MonoBehaviour
 
     private Animator enemyAnim;
 
-    private float speed = 500f;
+    private float speed = 200f;
     public float nextWaypointDistance = 4f;
 
     public float stoppingDistance = 3;
-    public float attackDistance = 5;
+    public float attackDistance = 10;
 
     private Destructable destructableTarget;
 
@@ -32,7 +32,7 @@ public class EnemyFollow : MonoBehaviour
     private float lastAttackTime;
     private float attackDelay = 1;
 
-    public int damage;
+    public int damage = 20;
     public GameObject bullet;
     public float bulletForce;
 
@@ -44,10 +44,19 @@ public class EnemyFollow : MonoBehaviour
         seeker = GetComponent<Seeker>();
         enemyAnim = GetComponent<Animator>();
         playerTarget = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        destructableTarget = FindClosestTarget();
+        if (Vector2.Distance(transform.position, playerTarget.position) > (attackDistance))
+        {
+            target = destructableTarget.GetComponent<Transform>();
+        }
+         else
+        {
+            target = playerTarget;
+        }
 
         enemyRb = GetComponent<Rigidbody2D>();
 
-        InvokeRepeating("UpdatePath", 0f, .5f);
+        InvokeRepeating("UpdatePath", 0f, .1f);
 
     }
 
@@ -59,8 +68,28 @@ public class EnemyFollow : MonoBehaviour
         }
     }
 
-    void Update()
+
+    void OnPathComplete(Path p)
     {
+        if (!p.error)
+        {
+            path = p;
+            currentWaypoint = 0;
+            destructableTarget = FindClosestTarget();
+            if (Vector2.Distance(transform.position, playerTarget.position) > (attackDistance))
+            {
+                target = destructableTarget.GetComponent<Transform>();
+            }
+            else
+            {
+                target = playerTarget;
+            }
+        }
+    }
+
+    void FixedUpdate()
+    {
+
         destructableTarget = FindClosestTarget();
         if (Vector2.Distance(transform.position, playerTarget.position) > (attackDistance))
         {
@@ -70,6 +99,7 @@ public class EnemyFollow : MonoBehaviour
         {
             target = playerTarget;
         }
+        
         //target = playerTarget;
         if (Vector2.Distance(transform.position, target.position) > stoppingDistance)
         {
@@ -86,6 +116,7 @@ public class EnemyFollow : MonoBehaviour
             {
                 reachedEndOfPath = false;
             }
+            
             Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - enemyRb.position).normalized;
             Vector2 force = direction * speed * Time.deltaTime;
 
@@ -114,6 +145,7 @@ public class EnemyFollow : MonoBehaviour
         {
             
             enemyAnim.SetBool("IsWalk", false);
+            
             if(Time.time > lastAttackTime + attackDelay)
             {
                 Shoot();
@@ -122,15 +154,6 @@ public class EnemyFollow : MonoBehaviour
 
         }
 
-    }
-
-    void OnPathComplete(Path p)
-    {
-        if (!p.error)
-        {
-            path = p;
-            currentWaypoint = 0;
-        }
     }
 
     private Destructable FindClosestTarget()
@@ -163,5 +186,6 @@ public class EnemyFollow : MonoBehaviour
         GameObject newBullet = Instantiate(bullet, target.position, q);
 
     }
+
 }
 

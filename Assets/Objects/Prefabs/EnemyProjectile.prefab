@@ -136,4 +136,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whatIsSolid:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 768
+  damage: 20

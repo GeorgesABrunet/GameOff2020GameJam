@@ -9,7 +9,7 @@ public class EnemyBullet : MonoBehaviour
     private float distance = 0.5f;
     public LayerMask whatIsSolid;
 
-    public int damage=20;
+    public int damage=30;
 
     void Update()
     {
