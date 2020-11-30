@@ -29,8 +29,12 @@ public class EnemyFollow : MonoBehaviour
     Seeker seeker;
 
     //shooting variables
-    private float timeBetweenShots;
-    public float startTimeBetweenShots;
+    private float lastAttackTime;
+    private float attackDelay = 1;
+
+    public int damage;
+    public GameObject bullet;
+    public float bulletForce;
 
 
     private List<Vector3> pathVectorList;
@@ -45,8 +49,6 @@ public class EnemyFollow : MonoBehaviour
 
         InvokeRepeating("UpdatePath", 0f, .5f);
 
-        //set time variable at start
-        timeBetweenShots = startTimeBetweenShots;
     }
 
     void UpdatePath()
@@ -110,7 +112,14 @@ public class EnemyFollow : MonoBehaviour
         }
         else
         {
+            
             enemyAnim.SetBool("IsWalk", false);
+            if(Time.time > lastAttackTime + attackDelay)
+            {
+                Shoot();
+                lastAttackTime = Time.time;
+            }
+
         }
 
     }
@@ -145,6 +154,14 @@ public class EnemyFollow : MonoBehaviour
         return closestTarget;
     }
 
+    void Shoot()
+    {
+        Vector3 targetDirection = target.position - transform.position;
+        float angle = Mathf.Atan2(targetDirection.y, targetDirection.x) * Mathf.Rad2Deg;
+        Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
+        
+        GameObject newBullet = Instantiate(bullet, target.position, q);
 
+    }
 }
 
