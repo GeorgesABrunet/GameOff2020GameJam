@@ -7,7 +7,7 @@ using Pathfinding;
 public class EnemyFollow : MonoBehaviour
 {
 
-    private Animator enemyAnim;
+    protected Animator enemyAnim;
 
     private float speed = 200f;
     public float nextWaypointDistance = 4f;
@@ -17,7 +17,7 @@ public class EnemyFollow : MonoBehaviour
 
     private Destructable destructableTarget;
 
-    private Transform target;
+    protected Transform target;
     private Transform playerTarget;
 
     private Rigidbody2D enemyRb;
@@ -31,11 +31,7 @@ public class EnemyFollow : MonoBehaviour
     //shooting variables
     private float lastAttackTime;
     private float attackDelay = 1;
-
-    public int damage = 20;
-    public GameObject bullet;
-    public float bulletForce;
-
+    
 
     private List<Vector3> pathVectorList;
     // Start is called before the first frame update
@@ -44,16 +40,7 @@ public class EnemyFollow : MonoBehaviour
         seeker = GetComponent<Seeker>();
         enemyAnim = GetComponent<Animator>();
         playerTarget = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        destructableTarget = FindClosestTarget();
-        if (Vector2.Distance(transform.position, playerTarget.position) > (attackDistance))
-        {
-            target = destructableTarget.GetComponent<Transform>();
-        }
-         else
-        {
-            target = playerTarget;
-        }
-
+        SetTarget();
         enemyRb = GetComponent<Rigidbody2D>();
 
         InvokeRepeating("UpdatePath", 0f, .1f);
@@ -76,30 +63,22 @@ public class EnemyFollow : MonoBehaviour
             path = p;
             currentWaypoint = 0;
             destructableTarget = FindClosestTarget();
-            if (Vector2.Distance(transform.position, playerTarget.position) > (attackDistance))
-            {
-                target = destructableTarget.GetComponent<Transform>();
-            }
-            else
-            {
-                target = playerTarget;
-            }
+            SetTarget();
         }
     }
 
-    void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
 
-        destructableTarget = FindClosestTarget();
-        if (Vector2.Distance(transform.position, playerTarget.position) > (attackDistance))
-        {
-            target = destructableTarget.GetComponent<Transform>();
-        }
-        else
-        {
-            target = playerTarget;
-        }
         
+        Move();
+
+    }
+
+    protected virtual void Move()
+    {
+
+        SetTarget();
         //target = playerTarget;
         if (Vector2.Distance(transform.position, target.position) > stoppingDistance)
         {
@@ -140,20 +119,16 @@ public class EnemyFollow : MonoBehaviour
             }
             //transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
             enemyAnim.SetBool("IsWalk", true);
+            enemyAnim.SetBool("IsAttack", false);
         }
         else
-        {
-            
-            enemyAnim.SetBool("IsWalk", false);
-            
+        {   
             if(Time.time > lastAttackTime + attackDelay)
             {
-                Shoot();
+                Attack();
                 lastAttackTime = Time.time;
             }
-
         }
-
     }
 
     private Destructable FindClosestTarget()
@@ -177,15 +152,24 @@ public class EnemyFollow : MonoBehaviour
         return closestTarget;
     }
 
-    void Shoot()
+    void SetTarget()
     {
-        Vector3 targetDirection = target.position - transform.position;
-        float angle = Mathf.Atan2(targetDirection.y, targetDirection.x) * Mathf.Rad2Deg;
-        Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
-        
-        GameObject newBullet = Instantiate(bullet, target.position, q);
-
+        destructableTarget = FindClosestTarget();
+        if (Vector2.Distance(transform.position, playerTarget.position) > (attackDistance))
+        {
+            target = destructableTarget.GetComponent<Transform>();
+        }
+        else
+        {
+            target = playerTarget;
+        }
     }
 
+    protected virtual void Attack()
+    {
+        enemyAnim.SetBool("IsWalk", false);
+        enemyAnim.SetBool("IsAttack", true);
+        Debug.Log("hes a shootin");
+    }
 }
 
