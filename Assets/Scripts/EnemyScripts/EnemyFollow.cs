@@ -53,7 +53,7 @@ public class EnemyFollow : MonoBehaviour
 
     void UpdatePath()
     {
-        if(seeker.IsDone())
+        if(seeker.IsDone() && target != null)
         {
             seeker.StartPath(enemyRb.position, target.position, OnPathComplete);
         }

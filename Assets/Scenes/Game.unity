@@ -3038,6 +3038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxDoorHealth: 300
   currentDoorHealth: 0
+  destroyEffect: {fileID: 6105736626177128562, guid: daabf683d8339e34fb8575ae13532a91, type: 3}
 --- !u!82 &468737679
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5798,6 +5799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxDoorHealth: 300
   currentDoorHealth: 0
+  destroyEffect: {fileID: 6105736626177128562, guid: daabf683d8339e34fb8575ae13532a91, type: 3}
 --- !u!61 &887447296
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8034,6 +8036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxDoorHealth: 300
   currentDoorHealth: 0
+  destroyEffect: {fileID: 6105736626177128562, guid: daabf683d8339e34fb8575ae13532a91, type: 3}
 --- !u!61 &1222282986
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9054,6 +9057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxDoorHealth: 300
   currentDoorHealth: 0
+  destroyEffect: {fileID: 6105736626177128562, guid: daabf683d8339e34fb8575ae13532a91, type: 3}
 --- !u!61 &1405967199
 BoxCollider2D:
   m_ObjectHideFlags: 0

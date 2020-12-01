@@ -43,7 +43,7 @@ public class RangedEnemy : EnemyFollow
 
         if (gunDirection.x < gun.position.x)
         {
-            gun.rotation = Quaternion.Euler(0, 180, (90 - angle));
+            gun.rotation = Quaternion.Euler(0, 180, (180 - angle));
         }
     }
 

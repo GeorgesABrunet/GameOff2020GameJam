@@ -29,19 +29,7 @@ public class MeleEnemy : EnemyFollow
         if (ClobberingTime == 5)
         {
             base.enemyAnim.SetTrigger("IsSwing1");
-        }/*
-        else if (ClobberingTime == 2)
-        {
-            base.enemyAnim.SetTrigger("IsSwing2");
         }
-        else if (ClobberingTime == 3)
-        {
-            base.enemyAnim.SetTrigger("IsSwing3");
-        }
-        else
-        {
-            base.enemyAnim.SetTrigger("IsSwing4");
-        }*/
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -51,11 +39,10 @@ public class MeleEnemy : EnemyFollow
         {
             if (other.gameObject.tag == "Player")
             {
-                if (BlockPos.IsBlocking == false)
-                {
-                    Debug.Log("Eat dick bitch");
-                    other.GetComponent<PlayerHealth>().TakeDamage(enemySwingdamage);
-                }
+                
+                Debug.Log("Eat dick bitch");
+                other.GetComponent<PlayerHealth>().TakeDamage(enemySwingdamage);
+                
             } 
                 
             if (other.gameObject.tag == "Destructable")
