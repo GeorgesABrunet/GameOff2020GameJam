@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+    Poot made this
+*/
 public class WaveSpawner : MonoBehaviour
 {
     public enum SpawnState { SPAWNING, WAITING, COUNTING};
@@ -16,6 +19,13 @@ public class WaveSpawner : MonoBehaviour
 
     public Wave[] waves;
     private int nextWave = 0;
+
+//winstate stuff
+    public DistanceProgression DP;
+    public int totalWaves;
+    public int waveProgression;
+    public GameObject YouWinUI;
+// end winstate stuff
 
     public Transform[] enemies;
 
@@ -32,6 +42,11 @@ public class WaveSpawner : MonoBehaviour
         {
             Debug.LogError ("No spawn points referenced");
         }
+
+        totalWaves = waves.Length;
+        waveProgression = totalWaves;
+        DP.SetMaxDistance(totalWaves);
+
 
         waveCountdown = timeBetweenWaves;
     }
@@ -69,17 +84,15 @@ public class WaveSpawner : MonoBehaviour
     void WaveCompleted()
     {
         Debug.Log("Wave Completed bro");
-
+        waveProgression = waveProgression - 1;
+        DP.SetDistance(waveProgression);
         state = SpawnState.COUNTING;
         waveCountdown = timeBetweenWaves;
 
         if (nextWave + 1 > waves.Length - 1)
         {
-            nextWave = 0;
             Debug.Log("All Waves completed");
-
-            //can add winstate here
-            //WinState();
+            WinState();
         }
         else
         {
@@ -136,11 +149,11 @@ public class WaveSpawner : MonoBehaviour
         
     }
 
-    /*
+
     void WinState()
     {
-
+        Time.timeScale = 0f;
+        YouWinUI.SetActive(true);
     }
 
-    */
 }
