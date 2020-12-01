@@ -70,13 +70,15 @@ public class EnemyFollow : MonoBehaviour
     protected virtual void FixedUpdate()
     {
 
-        SetTarget();
+        
         Move();
 
     }
 
     protected virtual void Move()
     {
+
+        SetTarget();
         //target = playerTarget;
         if (Vector2.Distance(transform.position, target.position) > stoppingDistance)
         {
@@ -120,17 +122,12 @@ public class EnemyFollow : MonoBehaviour
             enemyAnim.SetBool("IsAttack", false);
         }
         else
-        {
-            
-            enemyAnim.SetBool("IsWalk", false);
-            enemyAnim.SetBool("IsAttack", true);
-            
+        {   
             if(Time.time > lastAttackTime + attackDelay)
             {
                 Attack();
                 lastAttackTime = Time.time;
             }
-
         }
     }
 
@@ -170,6 +167,8 @@ public class EnemyFollow : MonoBehaviour
 
     protected virtual void Attack()
     {
+        enemyAnim.SetBool("IsWalk", false);
+        enemyAnim.SetBool("IsAttack", true);
         Debug.Log("hes a shootin");
     }
 }

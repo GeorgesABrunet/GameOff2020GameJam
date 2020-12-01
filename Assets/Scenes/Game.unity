@@ -32240,7 +32240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAACIn+uAU0s+awIAABEFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMty2jAU/RVG65KxITG4u9YhpIs8prSTjTfCusYaZMmjR4Bk+PdeyTZ2KBvkc+7j3KNrfxIuTQOFVXqtOXtSDMj3CfFn8m0ykI9wpDslN/wD+pg3zmzlg2iI+U0tV4jHPs2oGqzmxQ+5Ez44QtBJXipdr9gOMmWsQbikwgBSWlmfLRH6nJAj/k1Tn3LC02zhTx94SqPJGY8FSAt6FLq8WdymabrsEuKbyP/iNO7ypogsZsvlfDWNklDCyULQugHm5xkq3fU957MQJnHSLiK6ufOtlRDcdEKJPTXBiIw2xuGYGMA4xcGDOt+9Ar6rrB9inPxSlgZs54qmp3uu0b+2KvmpWlNravatsncqnO9zF7eq2qJP//HTONClVvVj3zeOfA9b8WL/m54KauzI9TF8/1W4kwcq9nQr4K0C+azWWjnJkLTa+VRnYHY/PF5Gyyoo9gPeSr0CXTM43hseXa5qcj6H6Y+Z4PU2OH/bAhuhgt9hM0Dj3fxCwWFvTFcCUa/ir4E/dDdesI544NpYpLoppZe3VU77ULIKnvlpnM2UlhDgTnQDkgp7esUy9voKr7hR2yvmgfpXqWvecf0bcpUS4CE+iq6oV3W4XJap1OEJTPXirOASBtGeeEafMiVlu2FjT/q0jdMlLUZpO8fZ19UiZZJsIYrSOJnHs9sknhazJEnmy5jNGSwojUnYPS5xTipeW6GdPXhrcigucc/6L8xkrWkTtp1peljzj1qNLOeyVJtCA8iXtsJFOGhsgu8lWzGOBm3AWi7DfZPPnAhV7IHll0J5mHR1tJrmQ5WcNPxdWY/kJAuflJycyfkfUEsDBBQAAAgIAACIn+uLjRhWbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrRSmplZUqqBgaWhmbGhkYmZoW6ykZmZmbGFYYpxSqp5YqKhUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACIn+uAU0s+awIAABEFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACIn+uLjRhWbQAAAHgAAAAJACQAAAAAAAAAAAAAALgCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAcAMAAAAA
+    dataString: UEsDBBQAAAgIAACIn+uXBdgbbQIAABIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMziVjQWJwb61DSA/5mNJOLr4Ia401yJJHkgMkw3/vSraxQ7kgv7cfb5/W/iRC2Rpyp83aCP6kOZDvE+LP5NtkIB/hyHZabcQH9DFvgrvSB7EQ85s5oRGnPs3qCpwR+Q+1kz44QrBRotCmWvEdpNo6i3DBpAWkjHY+WyH0OSFH/JsmPuWEp9nCnz7wlESTMx5zUA7MKHR5s7hNkmTZJdCbyP9oQru8KSKL2XI5X02jOJRoVC5ZVQP38wyV7vqe81kIUzhpFxHd3PnWWkphO6HEnepgRMpq2+CYGMAFw8GDOhoyShC70vkxxukvRWHBdb4YdroXBh1s65KfurW1YnbfantnsvGd7mirqy369B8/pYEujK4e+7408j1cKfL9b3bKmXUj38fw/Uh6sOjA5J5tJbyVoJ712uhGcSSdaXxqY2F2PzxeRktLyPcD3kq9Apt68Ly3PLpc1uR8DtMfUymqbfD+tgU2UgfHw26Awdv5hYLD5tiuBKJexV8Lf9huvGId8SCMdUh1Uyovb6sb40PJKnjmp2lcqo2CAHeia1BMutMrlnHXV3jFjdpeMQ/Mv0xd847r35GrlAAP8VF0Rb3qw+WybKkPT2DLl8ZJoWAQ7Yln9CnVSrUbZr+SPmvTmILlo6xdI/jXzSJFHG8hihIaz+nsNqbTfBbH8XxJ+ZzDgjFKwuoJhWMy+drq7NzBS1NDcYVr1n9iJmvD6rDs3LDDWnxUeqRPqEJvcgOgXtoKvUMWDDbBF5OvuEB/NuCcUOG6yWdGpM73wLNLoSxMujo6w7KhSkZq8a6dRzKShm9KRs7k/A9QSwMEFAAACAgAAIif64uNGFZtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTVUVBKL0osyCgGihiCOKWZKSB2tFKamVlSqoGBpaGZsaGRiZmhbrKRmZmZsYVhinFKqnlioqFSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAIif65cF2BttAgAAEgUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAIif64uNGFZtAAAAeAAAAAkAJAAAAAAAAAAAAAAAugIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAByAwAAAAA=
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -32253,8 +32253,8 @@ MonoBehaviour:
   manualDebugFloorRoof: 0
   showSearchTree: 0
   unwalkableNodeDebugSize: 0.3
-  logPathResults: 1
-  maxNearestNodeDistance: 100
+  logPathResults: 0
+  maxNearestNodeDistance: 200
   scanOnStartup: 1
   fullGetNearestSearch: 0
   prioritizeGraphs: 0
@@ -32272,7 +32272,7 @@ MonoBehaviour:
   heuristic: 2
   heuristicScale: 1
   threadCount: 1
-  maxFrameTime: 1
+  maxFrameTime: 10
   batchGraphUpdates: 0
   graphUpdateBatchingInterval: 0.2
   euclideanEmbedding:
@@ -35888,8 +35888,9 @@ GameObject:
   - component: {fileID: 1597232931}
   - component: {fileID: 1597232930}
   - component: {fileID: 1597232933}
-  - component: {fileID: 1597232932}
   - component: {fileID: 1597232934}
+  - component: {fileID: 1597232932}
+  - component: {fileID: 1597232935}
   m_Layer: 0
   m_Name: Enemy2
   m_TagString: Untagged
@@ -36074,8 +36075,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0151ce130bc0444dbffa5a39c0920f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextWaypointDistance: 4
-  stoppingDistance: 3
+  nextWaypointDistance: 2
+  stoppingDistance: 2
   attackDistance: 10
   SwordBox: {fileID: 2054458538}
   damage: 5
@@ -36128,6 +36129,20 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &1597232935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597232925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0d4853d7b2542a43bdb05a3196fe8db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 200
+  currentHealth: 0
 --- !u!1 &1601869492
 GameObject:
   m_ObjectHideFlags: 0
@@ -37201,7 +37216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f1a1896af554164189b321fd6da5cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextWaypointDistance: 4
+  nextWaypointDistance: 2
   stoppingDistance: 3
   attackDistance: 10
   damage: 5
