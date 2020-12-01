@@ -9,13 +9,13 @@ public class Weapon : MonoBehaviour
 {
     public GameObject projectile;
     public Transform shotPoint;
-    public AudioSource PewPew;
+    //public AudioSource PewPew;
     private float timeShots;
     private float startTimeShots = 0.1f;
 
     public void Start()
     {
-        PewPew = GetComponent<AudioSource>();
+        //PewPew = GetComponent<AudioSource>();
     }
     public void Update()
     {
@@ -25,7 +25,7 @@ public class Weapon : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Mouse0))
             {
-                PewPew.Play();
+                //PewPew.Play();
 
                 Instantiate(projectile, shotPoint.position, transform.rotation);
                 timeShots = startTimeShots;
@@ -33,7 +33,7 @@ public class Weapon : MonoBehaviour
         }
         else   
         {
-            PewPew.Stop();
+            //PewPew.Stop();
             timeShots -= Time.deltaTime;
         }
     }
