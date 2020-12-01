@@ -7,7 +7,7 @@ using Pathfinding;
 public class EnemyFollow : MonoBehaviour
 {
 
-    private Animator enemyAnim;
+    protected Animator enemyAnim;
 
     private float speed = 200f;
     public float nextWaypointDistance = 4f;
@@ -17,7 +17,7 @@ public class EnemyFollow : MonoBehaviour
 
     private Destructable destructableTarget;
 
-    private Transform target;
+    protected Transform target;
     private Transform playerTarget;
 
     private Rigidbody2D enemyRb;
@@ -31,13 +31,6 @@ public class EnemyFollow : MonoBehaviour
     //shooting variables
     private float lastAttackTime;
     private float attackDelay = 1;
-
-    public int damage = 20;
-    public GameObject bullet;
-    public float bulletForce;
-    public Transform enemyShotPoint;
-    public Transform gun;
-    Vector2 gunDirection;
     
 
     private List<Vector3> pathVectorList;
@@ -74,12 +67,16 @@ public class EnemyFollow : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
 
         SetTarget();
-        AimGun();
-        
+        Move();
+
+    }
+
+    protected virtual void Move()
+    {
         //target = playerTarget;
         if (Vector2.Distance(transform.position, target.position) > stoppingDistance)
         {
@@ -120,20 +117,21 @@ public class EnemyFollow : MonoBehaviour
             }
             //transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
             enemyAnim.SetBool("IsWalk", true);
+            enemyAnim.SetBool("IsAttack", false);
         }
         else
         {
             
             enemyAnim.SetBool("IsWalk", false);
+            enemyAnim.SetBool("IsAttack", true);
             
             if(Time.time > lastAttackTime + attackDelay)
             {
-                Shoot();
+                Attack();
                 lastAttackTime = Time.time;
             }
 
         }
-
     }
 
     private Destructable FindClosestTarget()
@@ -157,27 +155,6 @@ public class EnemyFollow : MonoBehaviour
         return closestTarget;
     }
 
-    void Shoot()
-    {
-        Vector3 targetDirection = target.position - transform.position;
-        float angle = Mathf.Atan2(targetDirection.y, targetDirection.x) * Mathf.Rad2Deg;
-        Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
-        
-        GameObject newBullet = Instantiate(bullet, enemyShotPoint.position, q);
-
-    }
-    void AimGun()
-    {
-        Vector3 gunDirection = (target.position - gun.position).normalized;
-        float angle = Mathf.Atan2(gunDirection.y, gunDirection.x) * Mathf.Rad2Deg;
-        gun.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-
-        if (gunDirection.x < gun.position.x)
-        {
-            gun.rotation = Quaternion.Euler(0, 180, (90-angle));
-        }
-    }
-
     void SetTarget()
     {
         destructableTarget = FindClosestTarget();
@@ -189,6 +166,11 @@ public class EnemyFollow : MonoBehaviour
         {
             target = playerTarget;
         }
+    }
+
+    protected virtual void Attack()
+    {
+        Debug.Log("hes a shootin");
     }
 }
 
