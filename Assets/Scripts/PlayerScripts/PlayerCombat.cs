@@ -7,11 +7,15 @@ using UnityEngine;
 */
 public class PlayerCombat : MonoBehaviour
 {
-   public AudioSource swingSound;
+    public AudioSource swingSound;
     public Collider2D SwordBox;
     public LayerMask enemyLayers;
     public Animator anim;
-    private bool IsSwinging;
+
+    public bool IsBlocking;
+
+    private int SwingType;
+    public bool IsSwinging;
     public int attackDamage = 80;
     public float attackRate = 2f;
     float nextAttackTime = 1f;
@@ -26,11 +30,16 @@ public class PlayerCombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.Space))
+        {
+            anim.SetBool("IsBlock", true);
+        }
 
         if (Time.time >= nextAttackTime)
         {
             if (Input.GetKeyDown(KeyCode.Mouse1))
             {
+                SwingType = Random.Range(1,6);
                 Attack();
             }
         }
@@ -48,8 +57,24 @@ public class PlayerCombat : MonoBehaviour
     {
         //IsSwinging = true;
         swingSound.Play();
-        anim.SetTrigger("IsSwing1");
+        anim.SetTrigger("IsSwing" + SwingType);
+        if (SwingType == 6)
+        {
+            anim.SetTrigger("IsSwing1");
+        }
+        
+        
         nextAttackTime = Time.time + 1f / attackRate;
+    }
+
+    void EnableBlock()
+    {
+        IsBlocking = true;
+    }
+
+    void DisableBlock()
+    {
+        IsBlocking = false;
     }
 
     void OnTriggerEnter2D(Collider2D other)

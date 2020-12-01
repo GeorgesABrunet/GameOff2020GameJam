@@ -10,6 +10,8 @@ public class EnemyFollow : MonoBehaviour
     protected Animator enemyAnim;
 
     private float speed = 200f;
+
+    private int runSpeed = 4;
     public float nextWaypointDistance = 4f;
 
     public float stoppingDistance = 3;
@@ -21,6 +23,8 @@ public class EnemyFollow : MonoBehaviour
     private Transform playerTarget;
 
     private Rigidbody2D enemyRb;
+    //poot added for melee calculations
+    //public Vector2 _target;
 
     Path path;
     int currentWaypoint = 0;
@@ -97,9 +101,10 @@ public class EnemyFollow : MonoBehaviour
             }
             
             Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - enemyRb.position).normalized;
-            Vector2 force = direction * speed * Time.deltaTime;
+            Vector2 force = (direction * speed * Time.deltaTime).normalized;
 
-            enemyRb.AddForce(force);
+            //enemyRb.AddForce(force);
+            enemyRb.velocity =  runSpeed * force;
 
             float distance = Vector2.Distance(enemyRb.position, path.vectorPath[currentWaypoint]);
             //transform.position = Vector2.MoveTowards(transform.position, direction, speed * Time.deltaTime);
@@ -118,6 +123,8 @@ public class EnemyFollow : MonoBehaviour
                 transform.eulerAngles = new Vector2(0, 180);
             }
             //transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            
+            //enemyAnim.SetBool("IsWalk", Math.Abs(force.sqrMagnitude) > Mathf.Epsilon);
             enemyAnim.SetBool("IsWalk", true);
             enemyAnim.SetBool("IsAttack", false);
         }
@@ -158,6 +165,7 @@ public class EnemyFollow : MonoBehaviour
         if (Vector2.Distance(transform.position, playerTarget.position) > (attackDistance))
         {
             target = destructableTarget.GetComponent<Transform>();
+            //_target = new Vector2(target.x, target.y).normalized;
         }
         else
         {

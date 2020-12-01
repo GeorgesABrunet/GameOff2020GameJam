@@ -22,6 +22,7 @@ public class RangedEnemy : EnemyFollow
     protected override void Attack()
     {
         base.Attack();
+        
         Shoot();
     }
 
