@@ -23,7 +23,7 @@ public class EnemyBullet : MonoBehaviour
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.up, distance, whatIsSolid);
         if (hitInfo.collider != null)
         {
-            if ((hitInfo.collider.CompareTag("Player") && BlockPos.IsBlocking == false ) || hitInfo.collider.CompareTag("Destructable"))
+            if (hitInfo.collider.CompareTag("Player") || hitInfo.collider.CompareTag("Destructable"))
             {
                 Debug.Log("player rektd");
                 hitInfo.collider.SendMessage("TakeDamage", damage, SendMessageOptions.DontRequireReceiver);
