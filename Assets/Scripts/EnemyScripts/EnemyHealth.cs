@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-
+    public GameObject deathEffect;
     public int maxHealth = 200;
     public int currentHealth;
     // Start is called before the first frame update
@@ -33,7 +33,8 @@ public class EnemyHealth : MonoBehaviour
 
     // Update is called once per frame
     void Die()
-    {
+    {   
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }
