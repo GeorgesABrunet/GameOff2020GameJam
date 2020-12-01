@@ -10,7 +10,7 @@ public class HangarDoor : MonoBehaviour
 
     public int maxDoorHealth = 300;
     public int currentDoorHealth;
-
+    public GameObject destroyEffect;
 
     void Start()
     {
@@ -61,6 +61,7 @@ public class HangarDoor : MonoBehaviour
         if(currentDoorHealth <= 0)
         {
             Destroy(gameObject);
+            Instantiate(destroyEffect, transform.position, Quaternion.identity);
             var graphToScan = AstarPath.active.data.gridGraph;
             AstarPath.active.Scan(graphToScan);
         }

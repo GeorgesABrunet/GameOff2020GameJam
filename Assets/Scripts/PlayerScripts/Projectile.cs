@@ -12,7 +12,6 @@ public class Projectile : MonoBehaviour
     private float distance = 0.5f;
     public LayerMask whatIsSolid;
 
-    public GameObject destroyEffect;
 
     public int damage = 20;
 
@@ -47,7 +46,6 @@ public class Projectile : MonoBehaviour
     
     void DestroyProjectile()
     {
-        Instantiate(destroyEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }
