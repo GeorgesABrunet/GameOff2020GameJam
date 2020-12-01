@@ -4013,6 +4013,10 @@ PrefabInstance:
       propertyPath: YouWinUI
       value: 
       objectReference: {fileID: 1918764909}
+    - target: {fileID: 2386850744548824158, guid: 32db52c002c1f8d4e8d10886ad632203, type: 3}
+      propertyPath: spawnEffect
+      value: 
+      objectReference: {fileID: 8663685826290969617, guid: e4d7c703cdd81ab459970f801622fde3, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32db52c002c1f8d4e8d10886ad632203, type: 3}
 --- !u!1 &586777119

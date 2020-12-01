@@ -35,6 +35,7 @@ public class WaveSpawner : MonoBehaviour
 
     private float searchCountdown = 10f;
     private SpawnState state = SpawnState.COUNTING;
+    public GameObject spawnEffect;
 
     void Start()
     { 
@@ -144,7 +145,9 @@ public class WaveSpawner : MonoBehaviour
         Debug.Log ("Spawning Enemy: " + _enemyTypes.name);
         //Transform _enemyTypes = enemies[Random.Range(0, enemies.Length)];
 
+        
         Transform _sp = spawnPoints[ Random.Range(0, spawnPoints.Length)];
+        Instantiate(spawnEffect, _sp.position, Quaternion.identity);
         Instantiate(_enemyTypes, _sp.position, transform.rotation);
         
     }
@@ -152,6 +155,7 @@ public class WaveSpawner : MonoBehaviour
 
     void WinState()
     {
+
         Time.timeScale = 0f;
         YouWinUI.SetActive(true);
     }
