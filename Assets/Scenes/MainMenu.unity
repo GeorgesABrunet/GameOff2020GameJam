@@ -2386,7 +2386,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 1ecb780fd7d4fe04bb80e6c9b538d092, type: 3}
-    m_FontSize: 25
+    m_FontSize: 23
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
@@ -2397,12 +2397,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mission 13151514 is a survival shooter. The space station has run out of
-    resources and the player must get to the moon to survive. The ship has been tracked
-    by space pirates and the player must fend them off, wave by wave, to make it
-    through. These pirates are determined to raid you and your ship. Do not let them
-    destroy the equipment on your ship or kill you! Either option will result in
-    Death. Good luck, space cowboy
+  m_Text: "Mission 13151514 is a survival shooter. The space station has run out
+    of resources and the player must get to the moon to survive. The ship has been
+    tracked by space pirates and the player must fend them off, wave by wave, to
+    make it through. Do not let them destroy the equipment on your ship or kill you!
+    Either option will result in Death. \nGood luck, space cowboy\n\nRightMouse -
+    Sword     LeftMouse - shoot(hold)\n\nWASD - to move            Sprint - LeftShift(Hold)"
 --- !u!222 &1007738030
 CanvasRenderer:
   m_ObjectHideFlags: 0

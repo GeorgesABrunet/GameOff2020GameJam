@@ -7,7 +7,7 @@ using UnityEngine;
 */
 public class PlayerCombat : MonoBehaviour
 {
-    public AudioSource swingSound;
+    //public AudioSource swingSound;
     public Collider2D SwordBox;
     public LayerMask enemyLayers;
     public Animator anim;
@@ -21,7 +21,7 @@ public class PlayerCombat : MonoBehaviour
     float nextAttackTime = 1f;
     void Start()
     {
-        swingSound = GetComponent<AudioSource>();
+        //swingSound = GetComponent<AudioSource>();
         SwordBox = GetComponent<Collider2D>();
         anim = GetComponent<Animator>();
         IsSwinging = false;
@@ -56,7 +56,7 @@ public class PlayerCombat : MonoBehaviour
     void Attack()
     {
         //IsSwinging = true;
-        swingSound.Play();
+        //swingSound.Play();
         anim.SetTrigger("IsSwing" + SwingType);
         if (SwingType == 6)
         {

@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 _movement;
     private Animator anim;
 
-    private AudioSource footStep;
+    //private AudioSource footStep;
 
     private bool BoiIsStanding;
     private void Start()
@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
         BoiIsStanding = true;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        footStep = GetComponent<AudioSource>();
+        //footStep = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -81,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("IsWalk", Math.Abs(_movement.sqrMagnitude) > Mathf.Epsilon);  
         }
         //MOVEMENT SOUNDS
-        if (anim.GetBool("IsWalk"))
+        /*if (anim.GetBool("IsWalk"))
         {
             if (!footStep.isPlaying)
             {
@@ -91,7 +91,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             footStep.Stop();
-        }
+        }*/
 
         //ACTIONS
 
