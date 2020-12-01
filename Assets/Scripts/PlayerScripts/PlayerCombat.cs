@@ -12,7 +12,7 @@ public class PlayerCombat : MonoBehaviour
     public LayerMask enemyLayers;
     public Animator anim;
     private bool IsSwinging;
-    public int attackDamage = 10;
+    public int attackDamage = 80;
     public float attackRate = 2f;
     float nextAttackTime = 1f;
     void Start()
@@ -26,36 +26,40 @@ public class PlayerCombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Time.time >= nextAttackTime)
         {
             if (Input.GetKeyDown(KeyCode.Mouse1))
             {
                 Attack();
-                //nextAttackTime = Time.time + 1f / attackRate;
             }
         }
-        else 
-        {
-            //swingSound.Stop();
-            IsSwinging = true;
-        }
     }
-
-    void Attack()
+    void EnableAttack()
     {
         IsSwinging = true;
+    }
+
+    void DisableAttack()
+    {
+        IsSwinging = false;
+    }
+    void Attack()
+    {
+        //IsSwinging = true;
         swingSound.Play();
         anim.SetTrigger("IsSwing1");
         nextAttackTime = Time.time + 1f / attackRate;
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (IsSwinging)
         {
-            if (collision.gameObject.tag == "Enemy")
+            if (other.gameObject.tag == "Enemy")
             {
                 Debug.Log("Get rektd bitch");
+                other.GetComponent<EnemyHealth>().EnemyTakeDamage(attackDamage);
             }
         }
     }

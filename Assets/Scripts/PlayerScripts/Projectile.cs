@@ -44,10 +44,10 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    /*
+    
     void DestroyProjectile()
     {
         Instantiate(destroyEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
-    }*/
+    }
 }
