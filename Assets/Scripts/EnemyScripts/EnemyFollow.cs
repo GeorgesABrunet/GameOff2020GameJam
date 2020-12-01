@@ -35,7 +35,10 @@ public class EnemyFollow : MonoBehaviour
     public int damage = 20;
     public GameObject bullet;
     public float bulletForce;
-
+    public Transform enemyShotPoint;
+    public Transform gun;
+    Vector2 gunDirection;
+    
 
     private List<Vector3> pathVectorList;
     // Start is called before the first frame update
@@ -44,16 +47,7 @@ public class EnemyFollow : MonoBehaviour
         seeker = GetComponent<Seeker>();
         enemyAnim = GetComponent<Animator>();
         playerTarget = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        destructableTarget = FindClosestTarget();
-        if (Vector2.Distance(transform.position, playerTarget.position) > (attackDistance))
-        {
-            target = destructableTarget.GetComponent<Transform>();
-        }
-         else
-        {
-            target = playerTarget;
-        }
-
+        SetTarget();
         enemyRb = GetComponent<Rigidbody2D>();
 
         InvokeRepeating("UpdatePath", 0f, .1f);
@@ -76,29 +70,15 @@ public class EnemyFollow : MonoBehaviour
             path = p;
             currentWaypoint = 0;
             destructableTarget = FindClosestTarget();
-            if (Vector2.Distance(transform.position, playerTarget.position) > (attackDistance))
-            {
-                target = destructableTarget.GetComponent<Transform>();
-            }
-            else
-            {
-                target = playerTarget;
-            }
+            SetTarget();
         }
     }
 
     void FixedUpdate()
     {
 
-        destructableTarget = FindClosestTarget();
-        if (Vector2.Distance(transform.position, playerTarget.position) > (attackDistance))
-        {
-            target = destructableTarget.GetComponent<Transform>();
-        }
-        else
-        {
-            target = playerTarget;
-        }
+        SetTarget();
+        AimGun();
         
         //target = playerTarget;
         if (Vector2.Distance(transform.position, target.position) > stoppingDistance)
@@ -183,9 +163,32 @@ public class EnemyFollow : MonoBehaviour
         float angle = Mathf.Atan2(targetDirection.y, targetDirection.x) * Mathf.Rad2Deg;
         Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
         
-        GameObject newBullet = Instantiate(bullet, target.position, q);
+        GameObject newBullet = Instantiate(bullet, enemyShotPoint.position, q);
 
     }
+    void AimGun()
+    {
+        Vector3 gunDirection = (target.position - gun.position).normalized;
+        float angle = Mathf.Atan2(gunDirection.y, gunDirection.x) * Mathf.Rad2Deg;
+        gun.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
+        if (gunDirection.x < gun.position.x)
+        {
+            gun.rotation = Quaternion.Euler(0, 180, (90-angle));
+        }
+    }
+
+    void SetTarget()
+    {
+        destructableTarget = FindClosestTarget();
+        if (Vector2.Distance(transform.position, playerTarget.position) > (attackDistance))
+        {
+            target = destructableTarget.GetComponent<Transform>();
+        }
+        else
+        {
+            target = playerTarget;
+        }
+    }
 }
 
